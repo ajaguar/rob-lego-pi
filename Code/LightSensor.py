@@ -1,4 +1,7 @@
 from Sensor import *
+import spidev
+import time
+import os
 
 class LightSensor(Sensor):
     
