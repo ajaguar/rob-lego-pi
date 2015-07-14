@@ -37,7 +37,7 @@ class LightSensor(Sensor):
     
     def __init__(self, port):
         super().__init__(port)
-        _openSPIBus()
+        self._openSPIBus()
     
     def _openSPIBus(self):
         self._spi = spidev.SpiDev()
