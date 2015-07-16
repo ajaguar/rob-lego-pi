@@ -90,7 +90,7 @@ class Motor:
         GPIO.output(self._motorPort.value[0], GPIO.HIGH)
         time.sleep(0.01)
         
-    def backwards(self):
+    def backward(self):
         GPIO.output(self._motorPort.value[0], GPIO.LOW)
         time.sleep(0.01)
         GPIO.output(self._motorPort.value[1], GPIO.HIGH)
