@@ -22,6 +22,7 @@ def delay(ms):
 # sensors
 class Sensor:
     
+    _spi = None
     _channel = None
     
     def __init__(self, channel):
@@ -54,8 +55,6 @@ class Sensor:
 
 
 class LightSensor(Sensor):
-    
-    _spi = None
     
     def getValue(self):
         return super(LightSensor, self).getValue()
