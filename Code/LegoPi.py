@@ -2,17 +2,14 @@
 
 import time
 import RPi.GPIO as GPIO
-from enum import Enum
 import spidev
 import time
 import os
 
 # ports for motors and sensors
-class Port(Enum):
+class MotorPort:
     A = [16, 15]
-    B = [23, 26]
-    C = 3
-    D = 4
+    B = [22, 18]
 
 
 # global functions 
@@ -24,96 +21,86 @@ def delay(ms):
 # sensors
 class Sensor:
     
-    _port = None
-    
-    def __init__(self, port):
-        assert isinstance(port, Port)
-        self._setupPins(port)
-        self._port = port;
-
-class LightSensor(Sensor):
-    
     _spi = None
+    _channel = None
     
-    def __init__(self, port):
-        super().__init__(port)
+    def __init__(self, channel):
+        self._validateChannel(channel)        
+        self._channel = channel;
         self._openSPIBus()
-    
+        
+    def _validateChannel(self, channel):
+        if(channel > 7 or channel < 0):
+            raise ValueError("channel must be a value between 0 and 7")
+            
     def _openSPIBus(self):
         self._spi = spidev.SpiDev()
-        spi.open(0,0)
+        self._spi.open(0,0)
     
     def _readChannel(self, channel):
         adc = self._spi.xfer2([1,(8+channel)<<4,0])
         data = ((adc[1]&3) << 8) + adc[2]
         return data
     
-    def _convertVolts(data,places):
+    def _convertVolts(self, data,places):
         volts = (data * 3.3) / float(1023)
         volts = round(volts,places)
         return volts
     
-    def getValue(self, lightChannel):
-        lightLevel = 1024 - _readChannel(lightChannel)
-        lightVolts = _convertVolts(lightLevel,2)
-        return lightVolts
+    def getValue(self):
+        level = 1024 - self._readChannel(self._channel)
+        #volts = self._convertVolts(level,2)
+        return level
 
+
+class LightSensor(Sensor):
+    
+    def getValue(self):
+        return Sensor.getValue(self)
+    
 class TouchSensor(Sensor):
     
-    def __init__(self, port):
-        super().__init__(port)
-        self._setupPin()
-    
-    def _setupPin(self):
-        GPIO.setmode(GPIO.BCM) 
-        GPIO.setup(_self.port.value[0], GPIO.IN, pull_up_down = GPIO.PUD_UP)
-    
-    def isPressed():
-        if GPIO.input(_self.port.value[0]):
-            return false
-        else:
-            return true
+    def isPressed(self):
+        return (Sensor.getValue(self) > 1)
     
 # motor
 class Motor:
     
-    _port = None
+    _motorPort = None
     _speed = 50
+    _pin1 = None
+    _pin2 = None
     
-    def __init__(self, port):
-        assert isinstance(port, Port)
-        self._port = port;
+    def __init__(self, motorPort):
+        self._motorPort = motorPort;
         self._setupPins()
     
     def _setupPins(self):
-        GPIO.setmode(GPIO.BCM)       
-        GPIO.setup(self._port.value[0], GPIO.OUT)    
-        GPIO.setup(self._port.value[1], GPIO.OUT)
-        pin1 = GPIO.PWM(self._port.value[0], self._speed) // frequency 50HZ by default for both pins
-        pin2 = GPIO.PWM(self._port.value[1], self._speed)
-        pin1.ChangeDutyCycle(self._speed)
-        pin2.ChangeDutyCycle(self._speed)
+        GPIO.setwarnings(False)
+        GPIO.setmode(GPIO.BOARD)       
+        GPIO.setup(self._motorPort[0], GPIO.OUT)    
+        GPIO.setup(self._motorPort[1], GPIO.OUT)
+        self._pin1 = GPIO.PWM(self._motorPort[0], 50) # frequency 50HZ by default for both pins
+        self._pin2 = GPIO.PWM(self._motorPort[1], 50)
+        self._pin1.ChangeDutyCycle(self._speed)
+        self._pin2.ChangeDutyCycle(self._speed)
     
     def forward(self):
-        GPIO.output(self._port.value[1], GPIO.LOW)
-        time.sleep(0.01)
-        GPIO.output(self._port.value[0], GPIO.HIGH)
-        time.sleep(0.01)
+        self._pin2.stop()
+        self._pin1.start(self._speed)
         
-    def backwards(self):
-        GPIO.output(self._port.value[0], GPIO.LOW)
-        time.sleep(0.01)
-        GPIO.output(self._port.value[1], GPIO.HIGH)
-        time.sleep(0.01)
+    def backward(self):
+        self._pin1.stop()
+        self._pin2.start(self._speed)
         
     def stop(self):
-        GPIO.output(self._port.value[0], GPIO.LOW)
-        time.sleep(0.01)
-        GPIO.output(self._port.value[1], GPIO.LOW)
-        time.sleep(0.01)
+        self._pin1.stop()
+        self._pin2.stop()
         
     def setSpeed(self, speed):
         self._speed = speed
+        self._pin1.ChangeDutyCycle(self._speed)
+        self._pin2.ChangeDutyCycle(self._speed)
         
     def getSpeed(self):
         return self._speed
