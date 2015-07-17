@@ -1,20 +1,28 @@
 from LegoPi import *
 
-#lightSensor = LightSensor(0)
-#i = 0;
-#while i < 10:
-#    print(lightSensor.getValue())
-#    i += 1
-#    delay(500)
-
+lightSensorA = TouchSensor(0)
+lightSensorB = TouchSensor(1)
+touchSensor = TouchSensor(2)
 motorA = Motor(MotorPort.A)
 motorA.forward()
 motorB = Motor(MotorPort.B)
 motorB.forward()
 
-delay(1000)
+while not touchSensor.isPressed():
+    delay(50)
+    if lightSensorA.getValue() <= 80:
+        motorA.stop()
+    else:
+        motorA.forward()
+    if lightSensorB.getValue() <= 80:
+        motorB.stop()
+    else: 
+        motorB.forward()
+
 motorA.stop()
 motorB.stop()
+
+
 
 #lightSensor = new LightSensor(0)
 #touchSensor = new TouchSensor(1)

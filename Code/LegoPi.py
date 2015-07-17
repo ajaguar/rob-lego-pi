@@ -49,8 +49,8 @@ class Sensor:
     
     def getValue(self):
         level = 1024 - self._readChannel(self._channel)
-        volts = self._convertVolts(level,2)
-        return volts
+        #volts = self._convertVolts(level,2)
+        return level
 
 
 class LightSensor(Sensor):
@@ -68,40 +68,39 @@ class Motor:
     
     _motorPort = None
     _speed = 50
+    _pin1 = None
+    _pin2 = None
     
     def __init__(self, motorPort):
         self._motorPort = motorPort;
         self._setupPins()
     
     def _setupPins(self):
+        GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BOARD)       
         GPIO.setup(self._motorPort[0], GPIO.OUT)    
         GPIO.setup(self._motorPort[1], GPIO.OUT)
-        pin1 = GPIO.PWM(self._motorPort[0], self._speed) # frequency 50HZ by default for both pins
-        pin2 = GPIO.PWM(self._motorPort[1], self._speed)
-        pin1.ChangeDutyCycle(self._speed)
-        pin2.ChangeDutyCycle(self._speed)
+        self._pin1 = GPIO.PWM(self._motorPort[0], 50) # frequency 50HZ by default for both pins
+        self._pin2 = GPIO.PWM(self._motorPort[1], 50)
+        self._pin1.ChangeDutyCycle(self._speed)
+        self._pin2.ChangeDutyCycle(self._speed)
     
     def forward(self):
-        GPIO.output(self._motorPort[1], GPIO.LOW)
-        time.sleep(0.01)
-        GPIO.output(self._motorPort[0], GPIO.HIGH)
-        time.sleep(0.01)
+        self._pin2.stop()
+        self._pin1.start(self._speed)
         
     def backward(self):
-        GPIO.output(self._motorPort[0], GPIO.LOW)
-        time.sleep(0.01)
-        GPIO.output(self._motorPort[1], GPIO.HIGH)
-        time.sleep(0.01)
+        self._pin1.stop()
+        self._pin2.start(self._speed)
         
     def stop(self):
-        GPIO.output(self._motorPort[0], GPIO.LOW)
-        time.sleep(0.01)
-        GPIO.output(self._motorPort[1], GPIO.LOW)
-        time.sleep(0.01)
+        self._pin1.stop()
+        self._pin2.stop()
         
     def setSpeed(self, speed):
         self._speed = speed
+        self._pin1.ChangeDutyCycle(self._speed)
+        self._pin2.ChangeDutyCycle(self._speed)
         
     def getSpeed(self):
         return self._speed
