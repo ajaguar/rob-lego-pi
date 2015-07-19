@@ -42,14 +42,8 @@ class Sensor:
         data = ((adc[1]&3) << 8) + adc[2]
         return data
     
-    def _convertVolts(self, data,places):
-        volts = (data * 3.3) / float(1023)
-        volts = round(volts,places)
-        return volts
-    
     def getValue(self):
         level = 1024 - self._readChannel(self._channel)
-        #volts = self._convertVolts(level,2)
         return level
 
 
