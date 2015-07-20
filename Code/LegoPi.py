@@ -74,7 +74,7 @@ class Motor:
         GPIO.setmode(GPIO.BOARD)       
         GPIO.setup(self._motorPort[0], GPIO.OUT)    
         GPIO.setup(self._motorPort[1], GPIO.OUT)
-        self._pin1 = GPIO.PWM(self._motorPort[0], 50) # frequency 50HZ by default for both pins
+        self._pin1 = GPIO.PWM(self._motorPort[0], 50)
         self._pin2 = GPIO.PWM(self._motorPort[1], 50)
         self._pin1.ChangeDutyCycle(self._speed)
         self._pin2.ChangeDutyCycle(self._speed)
@@ -92,6 +92,8 @@ class Motor:
         self._pin2.stop()
         
     def setSpeed(self, speed):
+        if speed < 0 or speed > 100:
+            raise ValueError("speed must be a value between 0 and 100")
         self._speed = speed
         self._pin1.ChangeDutyCycle(self._speed)
         self._pin2.ChangeDutyCycle(self._speed)
