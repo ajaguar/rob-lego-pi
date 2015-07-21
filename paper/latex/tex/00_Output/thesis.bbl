@@ -1,0 +1,24 @@
+\begin{thebibliography}{2}
+% this bibliography was produced with the style dinat.bst v2.5
+\makeatletter
+\newcommand{\dinatlabel}[1]%
+{\ifNAT@numbers\else\NAT@biblabelnum{#1}\hspace{2\labelsep}\fi}
+\makeatother
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[Kornmeier(2011)]{Kornmeier2011}
+\dinatlabel{Kornmeier 2011} \textsc{Kornmeier}, Marin:
+\newblock \emph{Wissenschaftlich schreiben leicht gemacht}.
+\newblock 4.
+\newblock UTB, 2011
+
+\bibitem[Vixie(2007)]{Vixie2007}
+\dinatlabel{Vixie 2007} \textsc{Vixie}, Paul:
+\newblock {DNS complexity}.
+\newblock In: \emph{Queue}
+\newblock 5 (2007), April, Nr.~3, S.~24. --
+\newblock URL \url{http://portal.acm.org/citation.cfm?doid=1242489.1242499}. --
+\newblock ISSN 15427730
+
+\end{thebibliography}
