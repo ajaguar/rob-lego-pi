@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  21 JUL 2015 22:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  22 JUL 2015 19:52
 entering extended mode
 **thesis.tex
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\thesis.tex
@@ -1002,7 +1002,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \seitenanfang=\skip69
 \seitenbreite=\skip70
 
-<bilder/hsma-logo.pdf, id=79, 642.4pt x 177.66376pt>
+<bilder/hsma-logo.pdf, id=87, 642.4pt x 177.66376pt>
 File: bilder/hsma-logo.pdf Graphic file (type pdf)
 
 <use bilder/hsma-logo.pdf>
@@ -1120,53 +1120,97 @@ chapter 1.
 
 
 
+] [2
+
+
 ]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
-Package acronym Info: Label `acro:ABK' newly defined as it shall be overridden
-although it is yet undefined on input line 32.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 39.
+chapter 2.
+
+Overfull \hbox (3.4052pt too wide) in paragraph at lines 16--18
+[]\T1/ptm/m/n/12 Raspberry PI ist ein güns-ti-ger Com-pu-ter in Kre-dit-kar-ten
+-grö-ÿe, wel-ches vie-le Schnitt-
+ []
+
+<bilder/raspberrypi.jpg, id=187, 144.54pt x 81.1833pt>
+File: bilder/raspberrypi.jpg Graphic file (type jpg)
+
+<use bilder/raspberrypi.jpg>
+Package pdftex.def Info: bilder/raspberrypi.jpg used on input line 21.
+(pdftex.def)             Requested size: 426.79134pt x 239.72775pt.
+
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 22.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 39.
+(Font)              scaled to size 8.54997pt on input line 22.
 
-Underfull \vbox (badness 3895) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[][]|\T1/phv/m/n/9 Ein Raspber-ryPI 2 mit Be-schrif-te-ten Schnitt-stel-len. Qu
+el-le:
+ []
 
 
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\T1/phv/m/n/9 http://www.portunity.de/blog/2013/februar/raspberry-pi-warum-ist-
+der-mini-computer-
+ []
+
+[3 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/raspberr
+ypi.jpg>]
+Package acronym Info: Label `acro:ABK' newly defined as it shall be overridden
+although it is yet undefined on input line 43.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 45.
 
 
-[2]) (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel2.tex
+LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 4 undefined on
+ input line 45.
+
+
+LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 4 undefined on
+ input line 45.
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 50.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 50.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[3]
+[4]) (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[4]
-chapter 2.
-<bilder/kapitel2/nasa_rover.jpg, id=207, 1027.84pt x 822.07124pt>
+[5]
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[6]
+chapter 3.
+<bilder/kapitel2/nasa_rover.jpg, id=227, 1027.84pt x 822.07124pt>
 File: bilder/kapitel2/nasa_rover.jpg Graphic file (type jpg)
 
 <use bilder/kapitel2/nasa_rover.jpg>
 Package pdftex.def Info: bilder/kapitel2/nasa_rover.jpg used on input line 10.
 (pdftex.def)             Requested size: 170.71652pt x 136.53905pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 11.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 11.
- [5
+ [7
 
 
  <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel2/n
 asa_rover.jpg>]
-<bilder/kapitel2/modell_point_to_point.pdf, id=214, 307.58743pt x 184.85773pt>
+<bilder/kapitel2/modell_point_to_point.pdf, id=233, 307.58743pt x 184.85773pt>
 File: bilder/kapitel2/modell_point_to_point.pdf Graphic file (type pdf)
 
 <use bilder/kapitel2/modell_point_to_point.pdf>
@@ -1177,7 +1221,7 @@ t line 19.
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[6 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel2
+[8 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel2
 /modell_point_to_point.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 60.
 
@@ -1190,7 +1234,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[7
+[9
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1199,7 +1243,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[8] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[10] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 119.
@@ -1218,13 +1262,13 @@ Underfull \vbox (badness 6510) has occurred while \output is active []
 Overfull \vbox (0.59724pt too high) has occurred while \output is active []
 
 
-[9]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+[11]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ))
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[10]
+[12]
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\abkuerzungen.tex)
 [7
 
@@ -1246,7 +1290,19 @@ ot)
 
 ]
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.l
-of)
+of
+Overfull \hbox (217.2133pt too wide) in paragraph at lines 5--5
+ [][] [][][]\T1/ptm/m/n/12 Ein Raspber-ryPI 2 mit Be-schrif-te-ten Schnitt-stel
+-len. Quel-le: http://www.portunity.de/blog/2013/februar/raspberry- 
+ []
+
+
+Overfull \hbox (20.85303pt too wide) in paragraph at lines 5--5
+ \T1/ptm/m/n/12 pi-warum-ist-der-mini-computer-bei-unseren-mitarbeitern-so-beli
+ebt.html[][] [][]  
+ []
+
+)
 \tf@lof=\write8
 
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.b
@@ -1279,19 +1335,23 @@ ux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 116BD55A10D68D7EA4C42D5DB2AF51DF;1138.
+(rerunfilecheck)             Checksum: 565FD86DC32DFC8C78A44B8D5BA446AA;1224.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 14456 strings out of 493921
- 215501 string characters out of 3147286
- 446839 words of memory out of 3000000
- 17315 multiletter control sequences out of 15000+200000
+ 14473 strings out of 493921
+ 215774 string characters out of 3147286
+ 447167 words of memory out of 3000000
+ 17326 multiletter control sequences out of 15000+200000
  78460 words of font info for 89 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,9n,66p,1096b,2363s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Andy\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ctt0900.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pro
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Andy\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1303,9 +1363,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmri8a.pfb>
 Output written on c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/0
-0_Output/thesis.pdf (27 pages, 494701 bytes).
+0_Output/thesis.pdf (29 pages, 576696 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
