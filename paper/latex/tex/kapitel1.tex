@@ -63,11 +63,30 @@ In der Computerarchitekture ist ein Bus ein System, das Daten zwischen einzelnen
 
 Der Serial Peripheral Interface (SPI) Bus ist eine von Motorola entwickelte,  synchrone serielle Kommunikationsschnittstelle, welche für die Übertragung von Daten über kurze Distanzen entworfen ist.  Häufige Anwendung findet der SPI in Embedded Systems. 
 
+Eine Kommunikation über SPI erfolgt über einen SPI Master und einen SPI Slave. Der SPI Master startet eine Kommunikation in dem er die SS Verbindung auf 0 Volt zieht und eine clock signal mit einer bestimmten clock frequency aktiviert. Die zu sendenden Signale werden dann über den MOSI (Master Out Slave In) übertragen, in der Frequenz die von SCLK vorgeben ist. Der SPI ist ein single-master Protokoll, da lediglich ein Master die Kommunikation über alle Slaves steuert.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{spi.png}
+  \caption{SPI Kommunikation erfolgt über einen Puls der von SCLK gegeben ist und den Master und Slave synchronisiert. Über MOSI (Master IN Slave OUT) sendet der Master Signale an den Slave. Quelle: http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols}
+  \label{Kap1:SPI}
+\end{figure}
+
+
 \subsection{I2C}
 
-\section{PWM}
+I2C ist ein multi-master Protokoll mit zwei Datenleitungen. Über Serial Data (SDA) werden die Daten übertragen. Der SCL (Serial Clock) gibt die Frequenz der Datenübertragung an und synchronisiert somit die Kommunikationspartner. Jedes Gerät, welches an den Bus angeschlossen ist bekommt eine 7 -bit slave address. Es können beliebig viele Geräte an den I2C angeschlossen werden. Die Daten werden in 8-bit Paketen übertragen. Die Daten Raten können 100 kbps, 400 kbps oder 3.4 Mbps betragen. Diese verschiedenen Übertragungsraten werden auch standard mode, fast mode und high speed mode genannt.
 
-\section{}
+Physikalisch besteht der I2C Bus aus zwei Leitungen und einer Ground Leitung (FIXME:siehe Abbildung x). Die aktiven Leitungen sind bi-direktional. Im I2C Standard ist definiert, dass jedes I2C Gerät welches Daten übersenden will, die Rolle eines Masters annimmt und alle anderen Geräte in diesem Moment Slaves sind.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{i2c}
+  \caption{Zwei I2C Geräte sind über SDA und SCL verbunden. Diese beiden Leitungen sind über pull-up Widerständen mit VCC verbunden. Quelle: http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/}
+  \label{Kap1:I2C}
+\end{figure}
+
+\section{PWM}
 
 \chapter{Implementierung}
 

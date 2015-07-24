@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  24 JUL 2015 11:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  24 JUL 2015 13:01
 entering extended mode
 **thesis.tex
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\thesis.tex
@@ -1196,45 +1196,76 @@ File: bilder/mcp3008.jpg Graphic file (type jpg)
 <use bilder/mcp3008.jpg>
 Package pdftex.def Info: bilder/mcp3008.jpg used on input line 53.
 (pdftex.def)             Requested size: 341.43306pt x 132.13666pt.
+ <bilder/spi.png, id=248, 321.45094pt x 327.47343pt>
+File: bilder/spi.png Graphic file (type png)
+
+<use bilder/spi.png>
+Package pdftex.def Info: bilder/spi.png used on input line 70.
+(pdftex.def)             Requested size: 341.43306pt x 347.83974pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [5 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/mcp3008.
-jpg>] [6
+jpg>] <bilder/i2c.png, id=256, 439.6425pt x 263.48438pt>
+File: bilder/i2c.png Graphic file (type png)
+ <use bilder/i2c.png>
+Package pdftex.def Info: bilder/i2c.png used on input line 84.
+(pdftex.def)             Requested size: 341.43306pt x 204.63248pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[6 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/spi.png>
+]
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[7 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/i2c.png>
+] [8
 
 
 ]
 chapter 3.
-[7] [8
+[9] [10
 
 
 ]
 chapter 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 80.
+(hyperref)                than one, level fixed on input line 103.
 
 Package acronym Info: Label `acro:ABK' newly defined as it shall be overridden
-although it is yet undefined on input line 89.
+although it is yet undefined on input line 112.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 114.
 
-LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 9 undefined on
- input line 91.
+LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 11 undefined o
+n input line 114.
 
 
-LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 9 undefined on
- input line 91.
+LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 11 undefined o
+n input line 114.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 96.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 96.
+(Font)              scaled to size 10.40245pt on input line 119.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9])
+ [11])
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1242,24 +1273,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[10]
+[12]
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[11] [12
+[13] [14
 
 
 ]
 chapter 5.
-<bilder/kapitel2/nasa_rover.jpg, id=304, 1027.84pt x 822.07124pt>
+<bilder/kapitel2/nasa_rover.jpg, id=319, 1027.84pt x 822.07124pt>
 File: bilder/kapitel2/nasa_rover.jpg Graphic file (type jpg)
 
 <use bilder/kapitel2/nasa_rover.jpg>
 Package pdftex.def Info: bilder/kapitel2/nasa_rover.jpg used on input line 10.
 (pdftex.def)             Requested size: 170.71652pt x 136.53905pt.
- [13 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapite
+ [15 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapite
 l2/nasa_rover.jpg>]
-<bilder/kapitel2/modell_point_to_point.pdf, id=310, 307.58743pt x 184.85773pt>
+<bilder/kapitel2/modell_point_to_point.pdf, id=325, 307.58743pt x 184.85773pt>
 File: bilder/kapitel2/modell_point_to_point.pdf Graphic file (type pdf)
 
 <use bilder/kapitel2/modell_point_to_point.pdf>
@@ -1270,7 +1301,7 @@ t line 19.
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[14 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel
+[16 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel
 2/modell_point_to_point.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 60.
 
@@ -1283,7 +1314,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[15
+[17
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1292,7 +1323,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[16] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[18] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 119.
@@ -1311,13 +1342,13 @@ Underfull \vbox (badness 6510) has occurred while \output is active []
 Overfull \vbox (0.59724pt too high) has occurred while \output is active []
 
 
-[17]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+[19]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ))
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[18]
+[20]
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\abkuerzungen.tex)
 [7
 
@@ -1384,7 +1415,7 @@ ux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 902C37CEA153700F8B342A5506726085;1658.
+(rerunfilecheck)             Checksum: B5B460D85FF801DA22A895ECCD9FD29D;1658.
 
 
 LaTeX Warning: There were undefined references.
@@ -1395,10 +1426,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 14509 strings out of 493921
- 216258 string characters out of 3147286
- 447421 words of memory out of 3000000
- 17344 multiletter control sequences out of 15000+200000
+ 14527 strings out of 493921
+ 216510 string characters out of 3147286
+ 448004 words of memory out of 3000000
+ 17356 multiletter control sequences out of 15000+200000
  78460 words of font info for 89 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,9n,66p,1096b,2363s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1415,9 +1446,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmri8a.pfb>
 Output written on c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/0
-0_Output/thesis.pdf (35 pages, 716293 bytes).
+0_Output/thesis.pdf (37 pages, 863349 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 645 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

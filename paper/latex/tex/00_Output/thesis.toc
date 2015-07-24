@@ -8,26 +8,26 @@
 \contentsline {section}{\numberline {2.3}A/D-Wandler}{4}{section.2.3}
 \contentsline {section}{\numberline {2.4}Bussysteme}{5}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}SPI}{5}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}I2C}{5}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}PWM}{5}{section.2.5}
-\contentsline {section}{\numberline {2.6}}{5}{section.2.6}
-\contentsline {chapter}{\numberline {3}Implementierung}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}Fazit}{9}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}Anf\IeC {\"u}hrungszeichen}{9}{subsection.4.0.1}
-\contentsline {subsection}{\numberline {4.0.2}Abk\IeC {\"u}rzungen}{9}{subsection.4.0.2}
-\contentsline {subsubsection}{Noch ein Unterabschnitt}{10}{subsubsection*.7}
-\contentsline {paragraph}{Eine Absatz\IeC {\"u}berschrift}{10}{paragraph*.8}
-\contentsline {subsection}{\numberline {4.0.3}Literaturarbeit}{10}{subsection.4.0.3}
-\contentsline {chapter}{\numberline {5}Zweites Kapitel}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Bilder}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Tabellen}{15}{section.5.2}
-\contentsline {section}{\numberline {5.3}Aufz\IeC {\"a}hlungen}{15}{section.5.3}
-\contentsline {section}{\numberline {5.4}Formelsatz}{16}{section.5.4}
-\contentsline {section}{\numberline {5.5}Sourcecode}{17}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Aus einer Datei}{17}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Inline}{18}{subsection.5.5.2}
-\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{vii}{chapter*.12}
-\contentsline {chapter}{Tabellenverzeichnis}{ix}{section*.13}
-\contentsline {chapter}{Abbildungsverzeichnis}{xi}{section*.15}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{xiii}{chapter*.17}
-\contentsline {chapter}{Index}{xv}{section*.18}
+\contentsline {subsection}{\numberline {2.4.2}I2C}{6}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}PWM}{7}{section.2.5}
+\contentsline {section}{\numberline {2.6}}{7}{section.2.6}
+\contentsline {chapter}{\numberline {3}Implementierung}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Fazit}{11}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}Anf\IeC {\"u}hrungszeichen}{11}{subsection.4.0.1}
+\contentsline {subsection}{\numberline {4.0.2}Abk\IeC {\"u}rzungen}{11}{subsection.4.0.2}
+\contentsline {subsubsection}{Noch ein Unterabschnitt}{12}{subsubsection*.9}
+\contentsline {paragraph}{Eine Absatz\IeC {\"u}berschrift}{12}{paragraph*.10}
+\contentsline {subsection}{\numberline {4.0.3}Literaturarbeit}{12}{subsection.4.0.3}
+\contentsline {chapter}{\numberline {5}Zweites Kapitel}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Bilder}{15}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tabellen}{17}{section.5.2}
+\contentsline {section}{\numberline {5.3}Aufz\IeC {\"a}hlungen}{17}{section.5.3}
+\contentsline {section}{\numberline {5.4}Formelsatz}{18}{section.5.4}
+\contentsline {section}{\numberline {5.5}Sourcecode}{19}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Aus einer Datei}{19}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Inline}{20}{subsection.5.5.2}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{vii}{chapter*.14}
+\contentsline {chapter}{Tabellenverzeichnis}{ix}{section*.15}
+\contentsline {chapter}{Abbildungsverzeichnis}{xi}{section*.17}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{xiii}{chapter*.19}
+\contentsline {chapter}{Index}{xv}{section*.20}
