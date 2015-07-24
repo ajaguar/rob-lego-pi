@@ -3,10 +3,14 @@
 \section{Motivation}
 Um im Unterricht Schülern und Studenten dass Programmieren und Konstruieren von Robotern zu erläutern, ist Lego Mindstorms mit dem programmierbaren Baustein NXT eine gute Wahl. Das Ziel dieser Arbeit ist es das programmieren von Lego Mindstorms Robotern zu vereinfachen und gleichzeitig die Grenzen die duch den Baustein NXT gesetzt sind zu sprengen. Wir wollen die Möglichkeiten der Programmierung des NXT eins zu eins mit dem Minicomputer Raspberry PI abbilden. Damit ist es uns möglich eine einfachere Programmierschnittstelle anzubieten und zusätzlich die vielen Möglichkeiten des Raspberry PIs für Schüler zugänglich machen. 
 
+In der Folgenden Arbeit werden wir den, vom Raspberry PI gesteuerten, Lego Mindstorms Roboter LegoPI nennen.
+
 Wir sehen den Raspberry PI als ein dem NXT überlegenes Steuerungsmodul, da auf dem Raspberry ein vollständiges Ubuntu Linux Betriebssystem läuft. Eine Überlegung der Autoren hierbei war es auf dem Ubuntu einen Webserver laufen zu lassen und dem Roboter über diesen aus der Ferne zu steuern.
 Weiterhin soll es in dieser Arbeit ermöglicht werden, weitere Sensoren an den Raspberry PI anschließen zu können. Zwar gibt es für Lego Mindstorms eine Liste von Sensoren, wie z.B einen Lichtsensor, Tastsensor und Ultraschallsensor, dieses Set an Sensoren ist allerdings eingeschränkt.
 
 Das Bereitstellen eines programmierbaren Roboters für jeden Schüler kann schnell teuer werden. Wir sehen die Verwendung eines Raspberry PI auch deshalb als Vorteil, weil ein Raspberry B+ mit 39,90 Eur den NXT mit 9841 mit 148,99 Eur preislich schlägt. \footnote{Preisvergleich des Raspberry PI 2 B+ und NXT 9841 auf www.amazon.de}
+
+In dieser Arbeit werden wir uns darauf beschränken alle Sensoren des NXT Bausatzes mit dem Raspberry PI zu verbinden. Zusätzlich soll es möglich sein Motoren über den Raspberry zu steuern. Um zu Prüfen ob der Raspberry PI den NXT im Unterricht ersetzen kann, werden wir einen Parqour der auch von Schülern der Hochschule Mannheim absolviert werden muss mit dem LegoPI durchlaufen.
 
 \chapter{Grundlagen}
 \section{Raspberry PI}
@@ -27,7 +31,19 @@ Was den Raspberry PI so beliebt macht um eigene Systeme zu bauen, ist dass auf i
 \label{Grundlagen:NXT}
 %\index{Auszeichnungen!im Text}
 
-Lego Mindstorms NXT ist ein Steuerungscomputer der Produktserie Lego Mindstorms
+Lego Mindstorms NXT ist ein Steuerungscomputer der Produktserie Lego Mindstorms. Es hat ebenso wie der Raspberry PI Anschlüsse für USB- und Bluetooth Schnittstellen. Im Gegensatz zu Raspberry PI bietet der NXT schon von vornerein Anschlüsse für Sensoren und Aktoren. 
+
+\section{MCP3008}
+
+\section{PWM}
+
+\section{}
+
+\chapter{Implementierung}
+
+\chapter{Fazit}
+
+In dieser Arbeit haben wir es geschafft LegoPI zu bauen. Einen Roboter der mit allen analogen Sensoren des Lego Mindstorms Bausatzes kompatibel ist. LegoPI ist ebenso in der Lage zwei Motoren zu steuern, um die Fortbewegung des Roboters zu ermöglichen.
 
 
 
