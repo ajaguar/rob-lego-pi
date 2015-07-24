@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  24 JUL 2015 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  24 JUL 2015 18:17
 entering extended mode
 **thesis.tex
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\thesis.tex
@@ -1009,7 +1009,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \seitenanfang=\skip69
 \seitenbreite=\skip70
 
-<bilder/hsma-logo.pdf, id=115, 642.4pt x 177.66376pt>
+<bilder/hsma-logo.pdf, id=75, 642.4pt x 177.66376pt>
 File: bilder/hsma-logo.pdf Graphic file (type pdf)
 
 <use bilder/hsma-logo.pdf>
@@ -1040,65 +1040,42 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
  <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/hsma-logo.
 pdf>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 164.
- [1]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 170.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 170.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 170.
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.179 \cleardoublepage
-                       [1
-
-] [2
-
-
-]
+(Font)              scaled to size 11.39996pt on input line 155.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 182.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 155.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 182.
+(Font)              scaled to size 11.39996pt on input line 155.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 182.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 155.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 182.
+(Font)              scaled to size 19.70294pt on input line 155.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 186.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 186.
+(Font)              scaled to size 11.39996pt on input line 159.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 186.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 186.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 11.39996pt on input line 186.
+(Font)              scaled to size 11.39996pt on input line 159.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 186.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 186.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 10.40245pt on input line 186.
+(Font)              scaled to size 10.40245pt on input line 159.
 
-Overfull \hbox (2.58827pt too wide) in paragraph at lines 186--186
+Overfull \hbox (2.58827pt too wide) in paragraph at lines 159--159
 |\T1/phv/b/sl/10.95 Application of a flux com-pen-sa-tor for ti-me-tra-vel with
  a ma-xi-mum ve-lo-ci-ty of warp 7| 
  []
 
-) [3
+) [1
 
 
-] [4
+] [2
 
 
 ]
@@ -1114,19 +1091,21 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write6
- [5] [6]
 \c@frontmatterpage=\count162
+ [3] [4
 
+
+]
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel1.tex
 chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
-
-
-
-
 
 
 ]
@@ -1141,7 +1120,7 @@ Overfull \hbox (3.4052pt too wide) in paragraph at lines 20--22
 -grö-ÿe, wel-ches vie-le Schnitt-
  []
 
-<bilder/raspberrypi.jpg, id=229, 144.54pt x 81.1833pt>
+<bilder/raspberrypi.jpg, id=154, 144.54pt x 81.1833pt>
 File: bilder/raspberrypi.jpg Graphic file (type jpg)
 
 <use bilder/raspberrypi.jpg>
@@ -1174,7 +1153,7 @@ der-mini-computer-
 
 
  <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/raspberryp
-i.jpg>] <bilder/nxt.jpg, id=235, 803.0pt x 785.93625pt>
+i.jpg>] <bilder/nxt.jpg, id=160, 803.0pt x 785.93625pt>
 File: bilder/nxt.jpg Graphic file (type jpg)
  <use bilder/nxt.jpg>
 Package pdftex.def Info: bilder/nxt.jpg used on input line 38.
@@ -1193,13 +1172,13 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [4 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/nxt.jpg>
-] <bilder/mcp3008.jpg, id=241, 776.14969pt x 300.3722pt>
+] <bilder/mcp3008.jpg, id=166, 776.14969pt x 300.3722pt>
 File: bilder/mcp3008.jpg Graphic file (type jpg)
 
 <use bilder/mcp3008.jpg>
 Package pdftex.def Info: bilder/mcp3008.jpg used on input line 51.
 (pdftex.def)             Requested size: 341.43306pt x 132.13666pt.
- <bilder/spi.png, id=242, 321.45094pt x 327.47343pt>
+ <bilder/spi.png, id=167, 321.45094pt x 327.47343pt>
 File: bilder/spi.png Graphic file (type png)
 
 <use bilder/spi.png>
@@ -1217,7 +1196,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [5 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/mcp3008.
-jpg>] <bilder/i2c.png, id=250, 439.6425pt x 263.48438pt>
+jpg>] <bilder/i2c.png, id=174, 439.6425pt x 263.48438pt>
 File: bilder/i2c.png Graphic file (type png)
  <use bilder/i2c.png>
 Package pdftex.def Info: bilder/i2c.png used on input line 80.
@@ -1255,7 +1234,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 Package natbib Warning: Citation `FIXME: ' on page 7 undefined on input line 86
 .
 
-<bilder/lightsensor.jpg, id=257, 562.1pt x 381.425pt>
+<bilder/lightsensor.jpg, id=181, 562.1pt x 381.425pt>
 File: bilder/lightsensor.jpg Graphic file (type jpg)
 
 <use bilder/lightsensor.jpg>
@@ -1273,7 +1252,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [7 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/i2c.png>
-] <bilder/tast.jpg, id=265, 301.125pt x 250.9375pt>
+] <bilder/tast.jpg, id=190, 301.125pt x 250.9375pt>
 File: bilder/tast.jpg Graphic file (type jpg)
  <use bilder/tast.jpg>
 Package pdftex.def Info: bilder/tast.jpg used on input line 106.
@@ -1286,7 +1265,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 sor.jpg> <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/ta
 st.jpg>]
 chapter 3.
-<bilder/adwandlereigen.png, id=272, 293.59688pt x 289.83281pt>
+<bilder/adwandlereigen.png, id=198, 293.59688pt x 289.83281pt>
 File: bilder/adwandlereigen.png Graphic file (type png)
 
 <use bilder/adwandlereigen.png>
@@ -1306,135 +1285,22 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 [10 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/adwandl
 ereigen.png>]
 chapter 4.
-) (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11
-
-
-]
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[12]
-chapter 5.
-<bilder/kapitel2/nasa_rover.jpg, id=294, 1027.84pt x 822.07124pt>
-File: bilder/kapitel2/nasa_rover.jpg Graphic file (type jpg)
-
-<use bilder/kapitel2/nasa_rover.jpg>
-Package pdftex.def Info: bilder/kapitel2/nasa_rover.jpg used on input line 10.
-(pdftex.def)             Requested size: 170.71652pt x 136.53905pt.
- [13
-
-
- <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel2/n
-asa_rover.jpg>]
-<bilder/kapitel2/modell_point_to_point.pdf, id=300, 307.58743pt x 184.85773pt>
-File: bilder/kapitel2/modell_point_to_point.pdf Graphic file (type pdf)
-
-<use bilder/kapitel2/modell_point_to_point.pdf>
-Package pdftex.def Info: bilder/kapitel2/modell_point_to_point.pdf used on inpu
-t line 19.
-(pdftex.def)             Requested size: 170.71652pt x 102.60005pt.
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[14 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel
-2/modell_point_to_point.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 60.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[15
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[16] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 119.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-)
-(c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\src//Crypter.java
-Underfull \vbox (badness 6510) has occurred while \output is active []
-
-
-Overfull \vbox (0.59724pt too high) has occurred while \output is active []
-
-
-[17]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
-))
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[18]
-(c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\abkuerzungen.tex)
-[7
-
-
-
-
-] [8
-
-
-]
-(c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.l
-ot)
-\tf@lot=\write7
- [9
-
-
-] [10
-
-
-]
-(c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.l
-of
-Overfull \hbox (217.2133pt too wide) in paragraph at lines 5--5
- [][] [][][]\T1/ptm/m/n/12 Ein Raspber-ryPI 2 mit Be-schrif-te-ten Schnitt-stel
--len. Quel-le: http://www.portunity.de/blog/2013/februar/raspberry- 
- []
-
-
-Overfull \hbox (20.85303pt too wide) in paragraph at lines 5--5
- \T1/ptm/m/n/12 pi-warum-ist-der-mini-computer-bei-unseren-mitarbeitern-so-beli
-ebt.html[][] [][]  
- []
-
-
-Overfull \hbox (2.67574pt too wide) in paragraph at lines 9--9
- \T1/ptm/m/n/12 Quel-le: http://www.byteparadigm.com/applications/introduction-
-to- 
- []
-
-)
-\tf@lof=\write8
-
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.b
-bl [11
+blpdfTeX warning (ext4): destination with the same identifier (name{page.iii}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{thebibliography}{0}
+                               [3
 
 
-] [12
+]pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{thebibliography}{0}
+                               [4
 
 
 ]
@@ -1442,54 +1308,46 @@ chapter without number
 
 Package natbib Warning: Empty `thebibliography' environment on input line 10.
 
-) [13] [14
-
-
-]
+)
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.i
 nd)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.a
 ux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 71590CBD279525EF00791106B7ADA64E;1616.
+(rerunfilecheck)             Checksum: B054C609A9461F0C8B2F7A4FBD0F4C1E;1007.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 14510 strings out of 493921
- 216444 string characters out of 3147286
- 448322 words of memory out of 3000000
- 17350 multiletter control sequences out of 15000+200000
- 67666 words of font info for 83 fonts, out of 3000000 for 9000
+ 13909 strings out of 493921
+ 208355 string characters out of 3147286
+ 380444 words of memory out of 3000000
+ 16870 multiletter control sequences out of 15000+200000
+ 61515 words of font info for 77 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,9n,66p,1096b,2363s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Andy\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ctt0900.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmr8a.pfb>
+ 45i,8n,66p,1096b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helveti
+c/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
 Output written on c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/0
-0_Output/thesis.pdf (34 pages, 901517 bytes).
+0_Output/thesis.pdf (18 pages, 505647 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 280 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

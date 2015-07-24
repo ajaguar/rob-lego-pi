@@ -19,7 +19,6 @@
 \tableofcontents
 
 % Korrigiert Nummerierung bei mehrseitigem Inhaltsverzeichnis
-\cleardoublepage
 \newcounter{frontmatterpage}
 \setcounter{frontmatterpage}{\value{page}}
 
@@ -32,13 +31,9 @@
 % ------------------------------------------------------------------
 % Hauptteil der Arbeit
 \input{kapitel1} % Externe Datei einbinden
-\input{kapitel2} % Externe Datei einbinden
 % ------------------------------------------------------------------
 
 \label{lastpage}
-
-% Neue Seite
-\cleardoublepage
 
 % Backmatter mit normalem Zeilenabstand setzen
 \singlespacing
@@ -46,21 +41,6 @@
 % Römische Ziffern für die "Back-Matter", fortlaufend mit frontmatter
 \pagenumbering{roman}
 \setcounter{page}{\value{frontmatterpage}}
-
-% Abkürzungsverzeichnis
-\input{abkuerzungen}
-
-% Tabellenverzeichnis erzeugen
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
-\listoftables
-
-% Abbildungsverzeichnis erzeugen
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
-\listoffigures
 
 % Literaturverzeichnis erzeugen (nach DIN)
 \begin{flushleft}
@@ -71,7 +51,6 @@
 \end{flushleft}
 
 % Index ausgeben
-\cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Index}
 \printindex

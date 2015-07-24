@@ -12,15 +12,15 @@
 \ifthenelse{\equal{\hsmastudiengang}{IB}}%
   {\newcommand{\hsmastudienganglangde}{Informatik}%
   \newcommand{\hsmastudienganglangen}{Computer Science}%
-  \newcommand{\hsmatypde}{Bachelor-Thesis}%
-  \newcommand{\hsmatypen}{Bachelor Thesis}%
+  \newcommand{\hsmatypde}{Robotik - Projektdokumentation}%
+  \newcommand{\hsmatypen}{Robotik - Projektdokumentation}%
   \newcommand{\hsmagrad}{\hsmabsc}}{}
 
 \ifthenelse{\equal{\hsmastudiengang}{IMB}}%
   {\newcommand{\hsmastudienganglangde}{Medizinische Informatik}%
   \newcommand{\hsmastudienganglangen}{Medical Informatics}%
-  \newcommand{\hsmatypde}{Bachelor-Thesis}%
-  \newcommand{\hsmatypen}{Bachelor Thesis}%
+  \newcommand{\hsmatypde}{Robotik - Projektdokumentation}%
+  \newcommand{\hsmatypen}{Robotik - Projektdokumentation}%
   \newcommand{\hsmagrad}{\hsmabsc}}{}
   
 \ifthenelse{\equal{\hsmastudiengang}{UIB}}%
@@ -55,7 +55,7 @@
 
 \ifthenelse{\equal{\hsmasprache}{de}}%
   {\newcommand{\hsmatyp}{\hsmatypde}%
-   \newcommand{\hsmathesistype}{zur Erlangung des akademischen Grades \hsmagrad}%
+   \newcommand{\hsmathesistype}{Dokumentation des Arbeitsergebnis eines Robotikprojekts durchgeführt im SS 2015}%
    \newcommand{\hsmakoerperschaft}{\hsmakoerperschaftde}%
    \newcommand{\hsmastudiengangname}{Studiengang \hsmastudienganglangde}%
    \newcommand{\hsmastudienganglang}{\hsmastudienganglangde}%
@@ -150,33 +150,6 @@
   \vspace{2mm}
   \hsmazweitkorrektor
 \end{textblock*}
-
-% Bibliographische Informationen
-\null\newpage
-\thispagestyle{empty}
-  
-\newcommand{\hsmabibde}{\begin{small}\textbf{\hsmaautorbib}: \\ \hsmatitelde \ / \hsmaautor. \ -- \\ \hsmatyp, \hsmaort \ : \hsmakoerperschaftde, \hsmajahr. \pageref{lastpage} Seiten.\end{small}}
-
-\newcommand{\hsmabiben}{\begin{small}\textbf{\hsmaautorbib}: \\ \hsmatitelen \ / \hsmaautor. \ -- \\ \hsmatyp, \hsmaort \ : \hsmakoerperschaften, \hsmajahr. \pageref{lastpage} pages. \end{small}}
-
-\ifthenelse{\equal{\hsmasprache}{de}}%
-  {\hsmabibde \\ \vspace{0.5cm} \\ \hsmabiben}
-  {\hsmabiben \\ \vspace{0.5cm} \\ \hsmabibde}
-
-
-% Erklärung
-\clearpage\setcounter{page}{1}
-\thispagestyle{empty}
-\textsf{\large\textbf{Erklärung}}
-
-Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.
-
-\vspace{1cm}
-\hsmaort, \hsmadatum \\
-
-\vspace{1.2cm}						                                      
-\hsmaautor
-\cleardoublepage
 
 % Abstract
 \chapter*{Abstract}
