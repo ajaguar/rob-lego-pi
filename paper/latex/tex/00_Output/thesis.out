@@ -3,24 +3,27 @@
 \BOOKMARK [0][-]{chapter.2}{Grundlagen}{}% 3
 \BOOKMARK [1][-]{section.2.1}{Raspberry PI}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.2}{NXT}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.3}{MCP3008}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.4}{PWM}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.5}{}{chapter.2}% 8
-\BOOKMARK [0][-]{chapter.3}{Implementierung}{}% 9
-\BOOKMARK [0][-]{chapter.4}{Fazit}{}% 10
-\BOOKMARK [1][-]{subsection.4.0.1}{Anf\374hrungszeichen}{chapter.4}% 11
-\BOOKMARK [2][-]{subsection.4.0.2}{Abk\374rzungen}{subsection.4.0.1}% 12
-\BOOKMARK [2][-]{subsection.4.0.3}{Literaturarbeit}{subsection.4.0.1}% 13
-\BOOKMARK [0][-]{chapter.5}{Zweites Kapitel}{}% 14
-\BOOKMARK [1][-]{section.5.1}{Bilder}{chapter.5}% 15
-\BOOKMARK [1][-]{section.5.2}{Tabellen}{chapter.5}% 16
-\BOOKMARK [1][-]{section.5.3}{Aufz\344hlungen}{chapter.5}% 17
-\BOOKMARK [1][-]{section.5.4}{Formelsatz}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.5}{Sourcecode}{chapter.5}% 19
-\BOOKMARK [2][-]{subsection.5.5.1}{Aus einer Datei}{section.5.5}% 20
-\BOOKMARK [2][-]{subsection.5.5.2}{Inline}{section.5.5}% 21
-\BOOKMARK [0][-]{chapter*.10}{Abk\374rzungsverzeichnis}{}% 22
-\BOOKMARK [0][-]{section*.11}{Tabellenverzeichnis}{}% 23
-\BOOKMARK [0][-]{section*.13}{Abbildungsverzeichnis}{}% 24
-\BOOKMARK [0][-]{chapter*.15}{Literaturverzeichnis}{}% 25
-\BOOKMARK [0][-]{section*.16}{Index}{}% 26
+\BOOKMARK [1][-]{section.2.3}{A/D-Wandler}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.4}{Bussysteme}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.4.1}{SPI}{section.2.4}% 8
+\BOOKMARK [2][-]{subsection.2.4.2}{I2C}{section.2.4}% 9
+\BOOKMARK [1][-]{section.2.5}{PWM}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.6}{}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Implementierung}{}% 12
+\BOOKMARK [0][-]{chapter.4}{Fazit}{}% 13
+\BOOKMARK [1][-]{subsection.4.0.1}{Anf\374hrungszeichen}{chapter.4}% 14
+\BOOKMARK [2][-]{subsection.4.0.2}{Abk\374rzungen}{subsection.4.0.1}% 15
+\BOOKMARK [2][-]{subsection.4.0.3}{Literaturarbeit}{subsection.4.0.1}% 16
+\BOOKMARK [0][-]{chapter.5}{Zweites Kapitel}{}% 17
+\BOOKMARK [1][-]{section.5.1}{Bilder}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.2}{Tabellen}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.3}{Aufz\344hlungen}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.4}{Formelsatz}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.5}{Sourcecode}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.5.1}{Aus einer Datei}{section.5.5}% 23
+\BOOKMARK [2][-]{subsection.5.5.2}{Inline}{section.5.5}% 24
+\BOOKMARK [0][-]{chapter*.12}{Abk\374rzungsverzeichnis}{}% 25
+\BOOKMARK [0][-]{section*.13}{Tabellenverzeichnis}{}% 26
+\BOOKMARK [0][-]{section*.15}{Abbildungsverzeichnis}{}% 27
+\BOOKMARK [0][-]{chapter*.17}{Literaturverzeichnis}{}% 28
+\BOOKMARK [0][-]{section*.18}{Index}{}% 29

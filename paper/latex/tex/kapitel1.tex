@@ -33,7 +33,37 @@ Was den Raspberry PI so beliebt macht um eigene Systeme zu bauen, ist dass auf i
 
 Lego Mindstorms NXT ist ein Steuerungscomputer der Produktserie Lego Mindstorms. Es hat ebenso wie der Raspberry PI Anschlüsse für USB- und Bluetooth Schnittstellen. Im Gegensatz zu Raspberry PI bietet der NXT schon von vornerein Anschlüsse für Sensoren und Aktoren. 
 
-\section{MCP3008}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{nxt}
+  \caption{Ein NXT Baustein mit Anschlüssen für Motoren und Sensoren. Quelle: https://de.wikipedia.org/wiki/Lego-Mindstorms-NXT}
+  \label{Kap1:NXT}
+\end{figure}
+
+
+
+\section{A/D-Wandler}
+
+Ein Analog-Digital-Umsetzer, kurz A/D-Wandler, ist ein elektronisches Baustein, bei dem ein zeit-kontinierliches Eingangssignal in einzelne diskrete Abtastwerte abgetastet werden.
+
+In folgender Abbildung ist ein MCP3008 abgebildet. In dieser Arbeit wird dieser Baustein dazu verwendet, analoge Signale von Lego Sensoren in digitale Daten abzutasten, um diese im Raspberry PI zu verarbeiten. Der MCP3008 bietet 8 Eingänge um Sensoren Anzuschließen.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{mcp3008}
+  \caption{MCP3008 A/D-Wandler mit 8 Eingängen für Sensoren CH0-CH7}
+  \label{Kap1:NXT}
+\end{figure}
+
+
+\section{Bussysteme}
+In der Computerarchitekture ist ein Bus ein System, das Daten zwischen einzelnen Computerbestandteile überträgt.
+
+\subsection{SPI}
+
+Der Serial Peripheral Interface (SPI) Bus ist eine von Motorola entwickelte,  synchrone serielle Kommunikationsschnittstelle, welche für die Übertragung von Daten über kurze Distanzen entworfen ist.  Häufige Anwendung findet der SPI in Embedded Systems. 
+
+\subsection{I2C}
 
 \section{PWM}
 

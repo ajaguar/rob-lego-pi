@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  23 JUL 2015 18:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  24 JUL 2015 11:09
 entering extended mode
 **thesis.tex
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\thesis.tex
@@ -904,7 +904,11 @@ Package scrkbase Info: You've told me to redefine the font selection of the
 Writing index file thesis.idx
 ) (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\docinfo.tex)
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.a
-ux)
+ux
+
+LaTeX Warning: Label `Kap1:NXT' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -1002,7 +1006,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \seitenanfang=\skip69
 \seitenbreite=\skip70
 
-<bilder/hsma-logo.pdf, id=107, 642.4pt x 177.66376pt>
+<bilder/hsma-logo.pdf, id=119, 642.4pt x 177.66376pt>
 File: bilder/hsma-logo.pdf Graphic file (type pdf)
 
 <use bilder/hsma-logo.pdf>
@@ -1105,12 +1109,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [5])
 \tf@toc=\write6
- [5] [6
-
-
-]
+ [6]
 \c@frontmatterpage=\count162
 
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel1.tex
@@ -1119,6 +1120,8 @@ chapter 1.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
+
+
 
 
 
@@ -1135,7 +1138,7 @@ Overfull \hbox (3.4052pt too wide) in paragraph at lines 20--22
 -grö-ÿe, wel-ches vie-le Schnitt-
  []
 
-<bilder/raspberrypi.jpg, id=217, 144.54pt x 81.1833pt>
+<bilder/raspberrypi.jpg, id=235, 144.54pt x 81.1833pt>
 File: bilder/raspberrypi.jpg Graphic file (type jpg)
 
 <use bilder/raspberrypi.jpg>
@@ -1168,44 +1171,70 @@ der-mini-computer-
 
 
  <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/raspberryp
-i.jpg>]
+i.jpg>] <bilder/nxt.jpg, id=241, 803.0pt x 785.93625pt>
+File: bilder/nxt.jpg Graphic file (type jpg)
+ <use bilder/nxt.jpg>
+Package pdftex.def Info: bilder/nxt.jpg used on input line 38.
+(pdftex.def)             Requested size: 341.43306pt x 334.18037pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[][]|\T1/phv/m/n/9 Ein NXT Bau-stein mit An-schlüs-sen für Mo-to-ren und Sen-so
+-ren. Quel-le:
+ []
+
+
+Underfull \vbox (badness 5147) has occurred while \output is active []
+
+
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[4]
+[4 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/nxt.jpg>
+] <bilder/mcp3008.jpg, id=247, 776.14969pt x 300.3722pt>
+File: bilder/mcp3008.jpg Graphic file (type jpg)
+
+<use bilder/mcp3008.jpg>
+Package pdftex.def Info: bilder/mcp3008.jpg used on input line 53.
+(pdftex.def)             Requested size: 341.43306pt x 132.13666pt.
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[5 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/mcp3008.
+jpg>] [6
+
+
+]
 chapter 3.
-[5
-
-
-] [6
+[7] [8
 
 
 ]
 chapter 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 50.
+(hyperref)                than one, level fixed on input line 80.
 
 Package acronym Info: Label `acro:ABK' newly defined as it shall be overridden
-although it is yet undefined on input line 59.
+although it is yet undefined on input line 89.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 91.
 
-LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 7 undefined on
- input line 61.
+LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 9 undefined on
+ input line 91.
 
 
-LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 7 undefined on
- input line 61.
+LaTeX Warning: Reference `Einleitung:Textauszeichnungen' on page 9 undefined on
+ input line 91.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 66.
+(Font)              scaled to size 10.40245pt on input line 96.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7])
+ [9])
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1213,24 +1242,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[8]
+[10]
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[9] [10
+[11] [12
 
 
 ]
 chapter 5.
-<bilder/kapitel2/nasa_rover.jpg, id=273, 1027.84pt x 822.07124pt>
+<bilder/kapitel2/nasa_rover.jpg, id=304, 1027.84pt x 822.07124pt>
 File: bilder/kapitel2/nasa_rover.jpg Graphic file (type jpg)
 
 <use bilder/kapitel2/nasa_rover.jpg>
 Package pdftex.def Info: bilder/kapitel2/nasa_rover.jpg used on input line 10.
 (pdftex.def)             Requested size: 170.71652pt x 136.53905pt.
- [11 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapite
+ [13 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapite
 l2/nasa_rover.jpg>]
-<bilder/kapitel2/modell_point_to_point.pdf, id=280, 307.58743pt x 184.85773pt>
+<bilder/kapitel2/modell_point_to_point.pdf, id=310, 307.58743pt x 184.85773pt>
 File: bilder/kapitel2/modell_point_to_point.pdf Graphic file (type pdf)
 
 <use bilder/kapitel2/modell_point_to_point.pdf>
@@ -1241,7 +1270,7 @@ t line 19.
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[12 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel
+[14 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/kapitel
 2/modell_point_to_point.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 60.
 
@@ -1254,7 +1283,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[13
+[15
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1263,7 +1292,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[14] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[16] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 119.
@@ -1282,13 +1311,13 @@ Underfull \vbox (badness 6510) has occurred while \output is active []
 Overfull \vbox (0.59724pt too high) has occurred while \output is active []
 
 
-[15]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+[17]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 ))
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[16]
+[18]
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\abkuerzungen.tex)
 [7
 
@@ -1355,18 +1384,21 @@ ux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 55C7AF7779E2D278F9A904DA8DD5B2A5;1480.
+(rerunfilecheck)             Checksum: 902C37CEA153700F8B342A5506726085;1658.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 14487 strings out of 493921
- 215914 string characters out of 3147286
- 447172 words of memory out of 3000000
- 17331 multiletter control sequences out of 15000+200000
+ 14509 strings out of 493921
+ 216258 string characters out of 3147286
+ 447421 words of memory out of 3000000
+ 17344 multiletter control sequences out of 15000+200000
  78460 words of font info for 89 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,9n,66p,1096b,2363s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1383,9 +1415,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmri8a.pfb>
 Output written on c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/0
-0_Output/thesis.pdf (33 pages, 584415 bytes).
+0_Output/thesis.pdf (35 pages, 716293 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 126 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
