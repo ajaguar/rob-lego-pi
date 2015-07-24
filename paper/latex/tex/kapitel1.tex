@@ -77,7 +77,7 @@ Physikalisch besteht der I2C Bus aus zwei Leitungen und einer Ground Leitung (FI
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=12cm]{i2c}
+  \includegraphics[width=15cm]{i2c}
   \caption{Zwei I2C Geräte sind über SDA und SCL verbunden. Diese beiden Leitungen sind über pull-up Widerständen mit VCC verbunden. Quelle: http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/}
   \label{Kap1:I2C}
 \end{figure}
@@ -92,7 +92,7 @@ Der NXT Lichtsensor misst wie viel Licht  in den Sensor fällt. Dies geschieht �
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=12cm]{lightsensor}
+  \includegraphics[width=6cm]{lightsensor}
   \caption{NXT Lightsensor mit dem LDR oben und einer externen Lichtquelle unten.}
   \label{Kap1:Lightsensor}
 \end{figure}
@@ -103,43 +103,43 @@ Der Tastsensor ist ein einfacher Sensor der die Werte 1 für gedrückt und 0 fü
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=12cm]{tast}
+  \includegraphics[width=6cm]{tast}
   \caption{NXT Tastsensor}
+  \label{Kap1:tast}
+\end{figure}
+
+\section{PWM}
+
+\section{GPIO}
+Ein General Purpose Input/Output (GPIO) ist eine einfache digitale Schnittstelle mit der eine Folge von einsen und nullen übertragen werden können.
+Der Raspberry PI 2 bietet 40 GPIOs, welche jeweils als Eingabe oder Ausgabe Pins geschaltet werden können.
+
+\chapter{Implementierung}
+
+\section{Herausforderungen beim Auslesen der Sensoren}
+
+Den ersten Sensor den wir ausgelesen haben war der Tastsensor. Diesen haben wir über einen GPIO direkt mit dem Raspberry PI verbunden.
+Über das öffnen des GPIOs via RPi.GPIO konnten wir auslesen, ob der Tastsensor gedrückt ist oder nicht. 
+
+Die Idee war den Lichtsensor auch über GPIO auslesen zu können. Eine solche Testkonfiguration zeigte allerdings, dass wir keine sinnvollen Werte über den GPIO auslesen können. 
+
+Eine weitere möglichkeit sahen wir darin, über I2C den Sensor anzuschließen. Leider zeigte auch diese Option keinen Erfolg, da die NXT Sensoren eine eigenes I2C  Protokoll verwenden, welches nicht kompatibel ist mit dem I2C Bus am Raspberry PI. 
+
+Eine funktionierende Lösung sah so aus, den Sensor mit einem A/D-Wandler zu verbinden und dann per GPIO die digital abgetasteten Daten zu empfangen. Da wir keinen A/D-Wandler zur Verfügung hatten, bauten wir uns einen eigenen A/D-Wandler. (vgl. Abbildung xx FIXME). Der Nachteil dieser Schaltung ist, dass lediglich ein Sensor ausgelessen werden kann. Um den Anforderungen gerecht zu werden und einen Parqour wie in der Robotik Vorlesung zu durchlaufen ist der Einsatz von mehreren Sensoren notwendig. Dies erreichten wir mit dem Einsatz eines MCP3008 A/D-Wandler. Mit diesem ist das Auslesen von bis zu 8 Sensoren gleichzeitig möglich. (vergleiche xx FIXME).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{adwandlereigen}
+  \caption{A/D-Wandler realisiert über einen LDR der in Reihe geschaltet ist mit einem 2.2 kOhm Widerstand und 1$\mu$F Kondensator}
   \label{Kap1:Lightsensor}
 \end{figure}
 
 
-\section{PWM}
-
-\chapter{Implementierung}
-
 \chapter{Fazit}
 
-In dieser Arbeit haben wir es geschafft LegoPI zu bauen. Einen Roboter der mit allen analogen Sensoren des Lego Mindstorms Bausatzes kompatibel ist. LegoPI ist ebenso in der Lage zwei Motoren zu steuern, um die Fortbewegung des Roboters zu ermöglichen.
+In dieser Arbeit haben wir es geschafft LegoPI zu bauen. Einen Roboter der mit allen analogen Sensoren des Lego Mindstorms Bausatzes kompatibel ist. LegoPI ist ebenso in der Lage zwei Motoren zu steuern, um die Fortbewegung des Roboters zu ermöglichen. Wir konnten einen einfachen Parqour durchlaufen, in welchem der Roboter einer schwarzen Linie folgt und am Ende an einer Wand stehen bleibt. Das Signal zum Stehenbleiben wird hier über einen Tastsensor ausgelöst, welcher an der vorderen Front des Roboters angebracht ist. FIXME: Bild?
 
 
 
-\subsection{Anführungszeichen}
-
-Deutsche Anführungszeichen gehen so: "`dieser Text steht in \glq Anführungszeichen\grq; alles klar?"'.
-
-\subsection{Abkürzungen}
-\index{Abkürzungen}
-\index{Abbreviation|see{Abkürzungen}}
-
-Eine \ac{ABK} wird bei der ersten Verwendung ausgeschrieben\footnote{Ausschreiben bedeutet, dass man nicht die Abkürzung sondern die lange Form verwendet.}. Danach nicht mehr: \ac{ABK}. Man kann allerdings die Langform\footnote{\blindtext} explizit anfordern: \acl{ABK} oder die Kurzform \acs{ABK} oder auch noch einmal die Definition: \acf{ABK}.
-
-Mehr dazu findet sich im Kapitel~\ref{Einleitung:Textauszeichnungen} auf Seite~\pageref{Einleitung:Textauszeichnungen}.
-
-
-\subsubsection{Noch ein Unterabschnitt}
-
-\paragraph{Eine Absatzüberschrift}
-\blindtext[1]
-
-
-\subsection{Literaturarbeit}
-
-Wichtig ist das korrekte Zitieren von Quellen, wie es auch von \cite{Kornmeier2011} dargelegt wird. Interessant ist in diesem Zusammenhang auch der Artikel von \cite{Vixie2007}. Häufig werden die Zitate auch in Klammern gesetzt, wie bei \citep{Kornmeier2011}.
 
 \blindtext[4]

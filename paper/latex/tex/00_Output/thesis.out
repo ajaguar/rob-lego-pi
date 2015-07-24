@@ -8,12 +8,12 @@
 \BOOKMARK [2][-]{subsection.2.4.1}{SPI}{section.2.4}% 8
 \BOOKMARK [2][-]{subsection.2.4.2}{I2C}{section.2.4}% 9
 \BOOKMARK [2][-]{subsection.2.4.3}{Sensoren}{section.2.4}% 10
-\BOOKMARK [1][-]{section.2.5}{PWM}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Implementierung}{}% 12
-\BOOKMARK [0][-]{chapter.4}{Fazit}{}% 13
-\BOOKMARK [1][-]{subsection.4.0.1}{Anf\374hrungszeichen}{chapter.4}% 14
-\BOOKMARK [2][-]{subsection.4.0.2}{Abk\374rzungen}{subsection.4.0.1}% 15
-\BOOKMARK [2][-]{subsection.4.0.3}{Literaturarbeit}{subsection.4.0.1}% 16
+\BOOKMARK [2][-]{subsection.2.4.4}{Tastsensor}{section.2.4}% 11
+\BOOKMARK [1][-]{section.2.5}{PWM}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.6}{GPIO}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Implementierung}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Herausforderungen beim Auslesen der Sensoren}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Fazit}{}% 16
 \BOOKMARK [0][-]{chapter.5}{Zweites Kapitel}{}% 17
 \BOOKMARK [1][-]{section.5.1}{Bilder}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.2}{Tabellen}{chapter.5}% 19
@@ -22,8 +22,7 @@
 \BOOKMARK [1][-]{section.5.5}{Sourcecode}{chapter.5}% 22
 \BOOKMARK [2][-]{subsection.5.5.1}{Aus einer Datei}{section.5.5}% 23
 \BOOKMARK [2][-]{subsection.5.5.2}{Inline}{section.5.5}% 24
-\BOOKMARK [0][-]{chapter*.16}{Abk\374rzungsverzeichnis}{}% 25
-\BOOKMARK [0][-]{section*.17}{Tabellenverzeichnis}{}% 26
-\BOOKMARK [0][-]{section*.19}{Abbildungsverzeichnis}{}% 27
-\BOOKMARK [0][-]{chapter*.21}{Literaturverzeichnis}{}% 28
-\BOOKMARK [0][-]{section*.22}{Index}{}% 29
+\BOOKMARK [0][-]{chapter*.15}{Abk\374rzungsverzeichnis}{}% 25
+\BOOKMARK [0][-]{section*.16}{Tabellenverzeichnis}{}% 26
+\BOOKMARK [0][-]{section*.18}{Abbildungsverzeichnis}{}% 27
+\BOOKMARK [0][-]{chapter*.20}{Literaturverzeichnis}{}% 28
