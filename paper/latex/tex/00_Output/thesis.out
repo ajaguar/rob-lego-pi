@@ -7,8 +7,8 @@
 \BOOKMARK [1][-]{section.2.4}{Bussysteme}{chapter.2}% 7
 \BOOKMARK [2][-]{subsection.2.4.1}{SPI}{section.2.4}% 8
 \BOOKMARK [2][-]{subsection.2.4.2}{I2C}{section.2.4}% 9
-\BOOKMARK [1][-]{section.2.5}{PWM}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.6}{}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.4.3}{Sensoren}{section.2.4}% 10
+\BOOKMARK [1][-]{section.2.5}{PWM}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{Implementierung}{}% 12
 \BOOKMARK [0][-]{chapter.4}{Fazit}{}% 13
 \BOOKMARK [1][-]{subsection.4.0.1}{Anf\374hrungszeichen}{chapter.4}% 14
@@ -22,8 +22,8 @@
 \BOOKMARK [1][-]{section.5.5}{Sourcecode}{chapter.5}% 22
 \BOOKMARK [2][-]{subsection.5.5.1}{Aus einer Datei}{section.5.5}% 23
 \BOOKMARK [2][-]{subsection.5.5.2}{Inline}{section.5.5}% 24
-\BOOKMARK [0][-]{chapter*.14}{Abk\374rzungsverzeichnis}{}% 25
-\BOOKMARK [0][-]{section*.15}{Tabellenverzeichnis}{}% 26
-\BOOKMARK [0][-]{section*.17}{Abbildungsverzeichnis}{}% 27
-\BOOKMARK [0][-]{chapter*.19}{Literaturverzeichnis}{}% 28
-\BOOKMARK [0][-]{section*.20}{Index}{}% 29
+\BOOKMARK [0][-]{chapter*.16}{Abk\374rzungsverzeichnis}{}% 25
+\BOOKMARK [0][-]{section*.17}{Tabellenverzeichnis}{}% 26
+\BOOKMARK [0][-]{section*.19}{Abbildungsverzeichnis}{}% 27
+\BOOKMARK [0][-]{chapter*.21}{Literaturverzeichnis}{}% 28
+\BOOKMARK [0][-]{section*.22}{Index}{}% 29

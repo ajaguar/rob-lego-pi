@@ -40,8 +40,6 @@ Lego Mindstorms NXT ist ein Steuerungscomputer der Produktserie Lego Mindstorms.
   \label{Kap1:NXT}
 \end{figure}
 
-
-
 \section{A/D-Wandler}
 
 Ein Analog-Digital-Umsetzer, kurz A/D-Wandler, ist ein elektronisches Baustein, bei dem ein zeit-kontinierliches Eingangssignal in einzelne diskrete Abtastwerte abgetastet werden.
@@ -54,7 +52,6 @@ In folgender Abbildung ist ein MCP3008 abgebildet. In dieser Arbeit wird dieser 
   \caption{MCP3008 A/D-Wandler mit 8 Eingängen für Sensoren CH0-CH7}
   \label{Kap1:NXT}
 \end{figure}
-
 
 \section{Bussysteme}
 In der Computerarchitekture ist ein Bus ein System, das Daten zwischen einzelnen Computerbestandteile überträgt.
@@ -72,7 +69,6 @@ Eine Kommunikation über SPI erfolgt über einen SPI Master und einen SPI Slave.
   \label{Kap1:SPI}
 \end{figure}
 
-
 \subsection{I2C}
 
 I2C ist ein multi-master Protokoll mit zwei Datenleitungen. Über Serial Data (SDA) werden die Daten übertragen. Der SCL (Serial Clock) gibt die Frequenz der Datenübertragung an und synchronisiert somit die Kommunikationspartner. Jedes Gerät, welches an den Bus angeschlossen ist bekommt eine 7 -bit slave address. Es können beliebig viele Geräte an den I2C angeschlossen werden. Die Daten werden in 8-bit Paketen übertragen. Die Daten Raten können 100 kbps, 400 kbps oder 3.4 Mbps betragen. Diese verschiedenen Übertragungsraten werden auch standard mode, fast mode und high speed mode genannt.
@@ -85,6 +81,33 @@ Physikalisch besteht der I2C Bus aus zwei Leitungen und einer Ground Leitung (FI
   \caption{Zwei I2C Geräte sind über SDA und SCL verbunden. Diese beiden Leitungen sind über pull-up Widerständen mit VCC verbunden. Quelle: http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/}
   \label{Kap1:I2C}
 \end{figure}
+
+\subsection{Sensoren}
+Unter Sensoren versteht man Komponenten, in denen eine physikalische oder chemische Veränderung in ein geeignetes Nutzsignal erfasst oder gemessen wird. \cite{FIXME: }
+
+Im folgenden werden die Sensoren beschrieben, die in dieser Arbeit in Betrieb genommen werden.
+
+\subsubsection{NXT Lightsensor}
+Der NXT Lichtsensor misst wie viel Licht  in den Sensor fällt. Dies geschieht über einen light-dependent resistor (LDR), der ein variabler Widerstand ist der niedriger wird, je mehr Licht in hereinfällt. Der Lichtsensor verfügt ebenfalls über eine externe Lichtquelle. Mit dieser ist es möglich auch in dunklen Lichtverhältnissen zwischen Oberflächen zu unterscheiden.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{lightsensor}
+  \caption{NXT Lightsensor mit dem LDR oben und einer externen Lichtquelle unten.}
+  \label{Kap1:Lightsensor}
+\end{figure}
+
+\subsection{Tastsensor}
+
+Der Tastsensor ist ein einfacher Sensor der die Werte 1 für gedrückt und 0 für nicht gedrückt darstellen kann. In dieser Arbeit wird dieser Sensor beispielsweise dazu verwendet den Roboter zu starten. Ist der Schalter gedrückt, wird ein Startskript ausgeführt.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{tast}
+  \caption{NXT Tastsensor}
+  \label{Kap1:Lightsensor}
+\end{figure}
+
 
 \section{PWM}
 
@@ -99,7 +122,6 @@ In dieser Arbeit haben wir es geschafft LegoPI zu bauen. Einen Roboter der mit a
 \subsection{Anführungszeichen}
 
 Deutsche Anführungszeichen gehen so: "`dieser Text steht in \glq Anführungszeichen\grq; alles klar?"'.
-
 
 \subsection{Abkürzungen}
 \index{Abkürzungen}

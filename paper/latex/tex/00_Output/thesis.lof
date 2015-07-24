@@ -6,10 +6,11 @@
 \contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Ein NXT Baustein mit Anschl\IeC {\"u}ssen f\IeC {\"u}r Motoren und Sensoren. Quelle: https://de.wikipedia.org/wiki/Lego-Mindstorms-NXT\relax }}{4}{figure.caption.4}
 \contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces MCP3008 A/D-Wandler mit 8 Eing\IeC {\"a}ngen f\IeC {\"u}r Sensoren CH0-CH7\relax }}{5}{figure.caption.5}
 \contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces SPI Kommunikation erfolgt \IeC {\"u}ber einen Puls der von SCLK gegeben ist und den Master und Slave synchronisiert. \IeC {\"U}ber MOSI (Master IN Slave OUT) sendet der Master Signale an den Slave. Quelle: http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols\relax }}{6}{figure.caption.6}
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Zwei I2C Ger\IeC {\"a}te sind \IeC {\"u}ber SDA und SCL verbunden. Diese beiden Leitungen sind \IeC {\"u}ber pull-up Widerst\IeC {\"a}nden mit VCC verbunden.\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Zwei I2C Ger\IeC {\"a}te sind \IeC {\"u}ber SDA und SCL verbunden. Diese beiden Leitungen sind \IeC {\"u}ber pull-up Widerst\IeC {\"a}nden mit VCC verbunden. Quelle: http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces NXT Lightsensor mit dem LDR oben und einer externen Lichtquelle unten.\relax }}{8}{figure.caption.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Ein Nasa Rover\relax }}{15}{figure.caption.11}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Point to Point\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Ein Nasa Rover\relax }}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Point to Point\relax }}{16}{figure.caption.14}
 \addvspace {10\p@ }
