@@ -1,0 +1,46 @@
+\chapter{LegoPi-Software}
+\label{Kap3}
+
+Für die einfache Benutzung des LegoPi-Roboters wurde eine individuelle API entwickelt. Um den Wechsel zwischen der LeJOS Bibliothek, welche direkt auf den Lego Mindstorm-Komponenten ausgeführt wird, und der für den RaspberryPi entwickelten API so einfach wie möglich zu gestalten, ist diese stark an die LeJOS Software-Architektur angelehnt. Entwickelt wurde die API in der Programmiersprache Python und mithilfe der Bibliotheken RPi.GPIO, welche eine einfache Verwendung der RaspberryPi GPIO-Pins ermöglicht, sowie SpiDev um den SPI-Bus ansprechen zu können. Mithilfe der entwickelten API ist es möglich bis zu zwei Motoren und acht Sensoren zu steuern.
+
+\section{Software-Komponenten}
+
+Die LegoPi Software besteht aus vier grundlegenden Komponenten die einen einfachen Einstieg in die Benutzung gewährleisten.
+
+\subsection{LegoPi.py - API}
+
+In dem Python-Modul LegoPi sind alle in \autoref{Klassendiagramm} gezeigten Funktionalitäten eingebaut. Dieses Modul kann vom Entwickler genutzt werden um den individuellen Code für die Steuerung des LegoPi-Roboters zu kreieren.  
+
+\subsection{Run.py - Individueller Code des Entwicklers}
+
+Die \emph{Run.py}-Datei enthält den individuellen Code des entwicklers. Grund für die Vorgabe eines Dateinamens ist der in \autoref{subsec:execdaemon} beschriebene ExecDaemon.
+
+\subsection{ExecDaemon.py - Automatischer Start des Entwickler-Codes}
+\label{subsec:execdaemon}
+
+Der ExecDaemon wird beim Starten des Systems automatisch ausgeführt. Er läuft im Hintergrund und wartet auf ein Signal des an \emph{Channel 3} angeschlossenen Tastsensors. Sobald dieses Signal empfangen wird, startet der ExecDaemon den in \emph{Run.py} eingetragenen Code. Dies ermöglicht es den Entwickler den RaspberryPi vom Netzwerk zu trennen und den Code einfach zu testen, ohne ihn, zum Beispiel, direkt über eine SSH-Verbindung ausführen zu müssen.
+
+\subsection{startup.sh - Vorbereitung des Systems}
+
+Um das System unmittelbar nach Systemstart nutzen zu können, wird automatisch das Bash-Script \emph{startup.sh} ausgeführt. Dieses wird beim Neustart des Systems, durch einen in Crontab konfigurierten Job, automatisch ausgeführt. Dieses Script stellt zum einen sicher, dass der SPI-Bus aktiviert ist und zum anderen, dass der ExecDaemon ausgeführt wird.
+
+\section{API}
+
+Die API ist sehr einfach gestaltet und besteht aus wenigen Klassen um die verschiedenen Sensoren und Motoren ansprechen zu können. 
+
+\bild{Klassendiagramm}{17cm}{API - Klassendiagramm}
+
+\clearpage % Alle Bilder, die bisher kamen ausgeben
+
+\subsubsection{Motoren}
+Die Motoren werden mithilfe eines übergebenen MotorPorts instanziiert. Dieser MotorPort beschreibt, an welchen GPIO Pins der Motor angeschlossen ist. Durch \emph{forward()} und \emph{backward()} lassen sich die Motoren vorwärts und rückwärts bewegen. Ebenfalls ist es möglich die Geschwindigkeit individuell anzupassen. Durch \emph{setSpeed(speed: int)} lässt sich eine Geschwindigkeit zwischen 0 und 100 angeben. 
+
+\subsubsection{Sensoren}
+Sensoren hingegen gibt es in zwei unterschiedlichen Spezialisierungen, dem Tastsensor (TouchSensor), sowie dem Lichtsensor (LightSensor). Beide sind eine Erweiterung der Klasse Sensor, welche Grundlegende Aufgaben übernimmt die für alle Sensor-Arten benötigt werden. Der Lichtsensor liefert mit seiner einzigen öffentlichen Methode \emph{getValue()} einen numerischen Wert zurück, der die Lichtreflektion beschreibt. Je geringer die Reflektion, desto kleiner ist auch der Rückgabewert. Zu beachten ist hier, dass durch unterschiedliche Lichtverhältnisse bedingt, verschiedene Werte zurückgeliefert werden können. Deshalb ist zu empfehlen, nicht nach einem konkreten Wert zu suchen, sondern ein gewisses Delta zuzulassen. Der Tastsensor bestitzt ebenfalls lediglich eine öffentliche Methode \emph{isPressed()}, welche einen booleschen Wert zurückliefert, ob der Tastsensor aktiviert wurde oder nicht. Sensoren werden mit einem übergebenen \emph{Channel} instanziiert. Dieser ist äquivalent zu den Channels am AD-Wandler, und beschreibt wo der Sensor angeschlossen ist. Da bist zu acht Sensoren genutzt werden können, wird eine Zahl zwischen null und sieben erwartet.
+
+\subsection{Beispielanwendung}
+
+Nachfolgend eine einfache Beispielanwendung, um das Verständnis der Programmierschnittstelle zu fördern.
+
+\lstinputlisting[firstline=2,language=Python]{\srcloc/Run.py}
+
