@@ -138,12 +138,14 @@ Der Raspberry PI 2 bietet 40 GPIOs, welche jeweils als Eingabe oder Ausgabe Pins
 \label{eb:motor:tbl}
 \end{table}
 
-Die Steuerung des Motors erfogt über eine 9V Spannung. Für die Regulierung der Geschwindigkeit wird eine Pulsweitenmodulation verwendet. Die max. Stromstärke liegt bei 700mA für den Motor.  Die Versorgungsspannung an Pin 4 versorgt den Rotationssensor mit Strom. Mittels des Rotationssensors kann die genaue Rotationsposition des Motors bestimmt werden. Dieser Sensor kann über die Pin's 5 und 6 ausgelesen werden. Dieser Sensor wurde in diesem Projekt nicht weiter behandelt.
+Die Steuerung des Motors erfogt über eine 9V Spannung. Für die Regulierung der Geschwindigkeit wird eine Pulsweitenmodulation verwendet. Die max. Stromstärke liegt bei 700mA für den Motor.  Die Versorgungsspannung an Pin 4 versorgt den Rotationssensor mit Strom. Mittels des Rotationssensors kann die genaue Rotationsposition des Motors bestimmt werden. Dieser Sensor kann über die Pin's 5 und 6 ausgelesen werden. Der Rotationssensor, des Motors wurde in diesem Projekt nicht weiter behandelt.
 
 
 \subsection{Sensoren}\label{eb:sensor}
 
+Im folgenden werden die Sensoren des NXT näher beschrieben. Für jeden Sensor wird außerdem die Pinbelegung aufgelistet und der Strombedarf.
 
+\subsubsection{Tastsensor}
 % Tabelle
 \begin{table}[!ht]
 \centering
@@ -167,10 +169,10 @@ Die Steuerung des Motors erfogt über eine 9V Spannung. Für die Regulierung der
 \end{footnotesize}
 \label{tastsensor:tbl}
 \end{table}
-Der Tastsensor gehört zu den analog Sensorn vom NXT. Im Normalzustand ist der Tastsensor geöffnet (no: Normal Open). Die Leistungsaufnahme des Tastsensors ist im geöffneten zustand mit 2,2 mA sehr gering. Im geschlossenen Zustand liegt die Stromaufnahme bei 0 mA.
+Der Tastsensor gehört zu den analog Sensorn vom NXT. Im Normalzustand ist der Tastsensor geöffnet (no: Normal Open). Die Leistungsaufnahme des Tastsensors ist im geöffneten zustand mit 2,2mA sehr gering. Im geschlossenen Zustand liegt die Stromaufnahme bei 0mA.
 
 
-
+\subsubsection{Tonsensor}
 % Tabelle
 \begin{table}[!ht]
 \centering
@@ -194,7 +196,9 @@ Der Tastsensor gehört zu den analog Sensorn vom NXT. Im Normalzustand ist der T
 \end{footnotesize}
 \label{tonsensor:tbl}
 \end{table}
-Der Tonsensor war nicht Teil dieses Projektes, jedoch wird er zur Vollständigkeit hier aufgeführt. Auch der Tonsensor ist ein Analogsensor. Dieser Senesor misst den Schalldruck zwischen 55 dB und 90 dB. Bei der Decibelskala ist zu beachten, dass es sich hier um eine logarithmische Skalierung handelt. Somit nimmt der Mensch eine Erhöhung der Lautstärke um 10 dB als Verdopplung der Lautstärke wahr. Die Stromaufnahme des Tonsensors liegt bei 2,0 mA.
+Der Tonsensor war nicht Teil dieses Projektes, jedoch wird er zur Vollständigkeit hier aufgeführt. Auch der Tonsensor ist ein Analogsensor. Dieser Senesor misst den Schalldruck zwischen 55 dB und 90 dB. Bei der Decibelskala ist zu beachten, dass es sich hier um eine logarithmische Skalierung handelt. Somit nimmt der Mensch eine Erhöhung der Lautstärke um 10 dB als Verdopplung der Lautstärke wahr. Die Stromaufnahme des Tonsensors liegt bei 2,0mA.
+
+\subsubsection{Lichtsensor}
 % Tabelle
 \begin{table}[!ht]
 \centering
@@ -219,8 +223,9 @@ Der Tonsensor war nicht Teil dieses Projektes, jedoch wird er zur Vollständigke
 \label{lichtsensor:tbl}
 \end{table}
 
-Der Lichtsensor ist auch ein analoger Sensor. Über einen lichtempfindlichen Widerstand (LDR) kann dieser Sensor die Helligkeit messen. Der Sensor hat zwei Modis. Der erste Modus ist \emph{Umgebungslicht Modus} mit einer Stromverbrauch von 2,5 mA.  Im \emph{Reflektions Modus} wird eine kleine LED aktiviert und der Stromverbrauch steigt so auf 15 mA.
+Der Lichtsensor ist auch ein analoger Sensor. Über einen lichtempfindlichen Widerstand (LDR) kann dieser Sensor die Helligkeit messen. Der Sensor hat zwei Modis. Der erste Modus ist \emph{Umgebungslicht Modus} mit einer Stromverbrauch von 2,5mA.  Im \emph{Reflektions Modus} wird eine kleine LED aktiviert und der Stromverbrauch steigt so auf 15 mA.
 
+\subsubsection{Ultraschallsensor}
 % Tabelle
 \begin{table}[!ht]
 \centering
@@ -245,7 +250,7 @@ Der Lichtsensor ist auch ein analoger Sensor. Über einen lichtempfindlichen Wid
 \label{eb:ultraschall:tbl}
 \end{table}
 
-Der ultraschall Sensor ist ein digitaler Sensor. Das bedeutet, dass das Signal mittels I2C-Bus übertragen wird. Mit diesem Sensor können Distanzen zwischen  0 cm und 255 cm gemessen werden. Es ist der einzigste Sensor der zusätzlich zu der normalen Versorgungsspannung von 4,3V noch eine 9V Versorgungsspannung benötigt.
+Der ultraschall Sensor ist ein digitaler Sensor. Das bedeutet, dass das Signal mittels I2C-Bus übertragen wird. Mit diesem Sensor können Distanzen zwischen  0cm und 255cm gemessen werden. Es ist der einzigste Sensor der zusätzlich zu der normalen Versorgungsspannung von 4,3V noch eine 9V Versorgungsspannung benötigt.
 
 \subsection{SN754410}\label{eb:pwm}
 %Figure
@@ -254,7 +259,7 @@ Der ultraschall Sensor ist ein digitaler Sensor. Das bedeutet, dass das Signal m
 \caption{SN754410}
 \label{eb:fig:sn754410}
 \end{wrapfigure}
-Der SN754410 ermöglicht das Steuern der zwei Motoren mit einer max Stromstärke von 1 A (max Stromaufnahme eines Motors 700 mA) bei 9V. Die von uns  geschriebene Software steuert den Chip so an, dass über eine Pulsweitenmodulation die Geschwindigkeit des Motors beliebig angepasst werden kann. Durch die Pulsweitenmodulation ist die Wärmeentwicklung sehr gering. Daher ist eine Kühlung dieses Bauteils nicht notwendig.
+Der SN754410 ermöglicht das Steuern der zwei Motoren mit einer max Stromstärke von 1A (max Stromaufnahme eines Motors 700 mA) bei 9V. Die von uns  geschriebene Software steuert den Chip so an, dass über eine Pulsweitenmodulation die Geschwindigkeit des Motors beliebig angepasst werden kann. Durch die Pulsweitenmodulation ist die Wärmeentwicklung sehr gering. Daher ist eine Kühlung dieses Bauteils nicht notwendig.
 
 Über jeweils zwei GPIO-Pins kann so ein Motor gesteuert werden.
 
@@ -317,7 +322,7 @@ Beim Löten der kompletten Schaltung bestand die Herausforderung darin, die Bauw
   \item MCP3008 (\EUR{2,5})
   \item SN754410 (\EUR{2,5})
   \item Lochrasterplatine \EUR{1})
-  \item 4x 10kOhm Widerstand (\EUR{<1})
+  \item 4x 10kOhm Widerstand (<\EUR{1})
   \item 10x female-male Verbindungskabel (<\EUR{1})
   \item Lötzinn und Kupferdraht
 \end{itemize}
