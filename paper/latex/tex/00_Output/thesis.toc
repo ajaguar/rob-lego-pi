@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {4.1.3}ExecDaemon.py - Automatischer Start des Entwickler-Codes}{22}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}startup.sh - Vorbereitung des Systems}{22}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}API}{22}{section.4.2}
-\contentsline {subsubsection}{Motoren}{24}{subsubsection*.19}
-\contentsline {subsubsection}{Sensoren}{24}{subsubsection*.20}
-\contentsline {subsection}{\numberline {4.2.1}Beispielanwendung}{24}{subsection.4.2.1}
-\contentsline {chapter}{\numberline {5}Fazit}{i}{chapter.5}
+\contentsline {subsection}{\numberline {4.2.1}Motoren}{24}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Sensoren}{24}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Beispielanwendung}{24}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Fazit}{ii}{chapter.5}

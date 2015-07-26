@@ -28,5 +28,7 @@
 \BOOKMARK [2][-]{subsection.4.1.3}{ExecDaemon.py - Automatischer Start des Entwickler-Codes}{section.4.1}% 28
 \BOOKMARK [2][-]{subsection.4.1.4}{startup.sh - Vorbereitung des Systems}{section.4.1}% 29
 \BOOKMARK [1][-]{section.4.2}{API}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.2.1}{Beispielanwendung}{section.4.2}% 31
-\BOOKMARK [0][-]{chapter.5}{Fazit}{}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{Motoren}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.2}{Sensoren}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.3}{Beispielanwendung}{section.4.2}% 33
+\BOOKMARK [0][-]{chapter.5}{Fazit}{}% 34

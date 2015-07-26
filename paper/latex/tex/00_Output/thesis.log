@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  26 JUL 2015 14:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.8)  26 JUL 2015 14:32
 entering extended mode
 **thesis.tex
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\thesis.tex
@@ -1019,7 +1019,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \seitenanfang=\skip69
 \seitenbreite=\skip70
 
-<bilder/hsma-logo.pdf, id=131, 642.4pt x 177.66376pt>
+<bilder/hsma-logo.pdf, id=139, 642.4pt x 177.66376pt>
 File: bilder/hsma-logo.pdf Graphic file (type pdf)
 
 <use bilder/hsma-logo.pdf>
@@ -1071,13 +1071,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1
+
+
+])
 \tf@toc=\write6
 \c@frontmatterpage=\count163
- [1
-
-
-] [2]
+ [2]
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\kapitel1.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
@@ -1098,7 +1098,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [2]
 chapter 2.
-<bilder/raspberrypi.jpg, id=227, 144.54pt x 81.1833pt>
+<bilder/raspberrypi.jpg, id=239, 144.54pt x 81.1833pt>
 File: bilder/raspberrypi.jpg Graphic file (type jpg)
 
 <use bilder/raspberrypi.jpg>
@@ -1131,7 +1131,7 @@ der-mini-computer-
 
 
  <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/raspberryp
-i.jpg>] <bilder/nxt.jpg, id=233, 803.0pt x 785.93625pt>
+i.jpg>] <bilder/nxt.jpg, id=245, 803.0pt x 785.93625pt>
 File: bilder/nxt.jpg Graphic file (type jpg)
  <use bilder/nxt.jpg>
 Package pdftex.def Info: bilder/nxt.jpg used on input line 40.
@@ -1150,7 +1150,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [4 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/nxt.jpg>
-] <bilder/spi.png, id=240, 321.45094pt x 327.47343pt>
+] <bilder/spi.png, id=252, 321.45094pt x 327.47343pt>
 File: bilder/spi.png Graphic file (type png)
  <use bilder/spi.png>
 Package pdftex.def Info: bilder/spi.png used on input line 61.
@@ -1159,7 +1159,7 @@ Package pdftex.def Info: bilder/spi.png used on input line 61.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<bilder/i2c.png, id=242, 439.6425pt x 263.48438pt>
+<bilder/i2c.png, id=254, 439.6425pt x 263.48438pt>
 File: bilder/i2c.png Graphic file (type png)
  <use bilder/i2c.png>
 Package pdftex.def Info: bilder/i2c.png used on input line 74.
@@ -1215,13 +1215,13 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 86.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 10.40245pt on input line 86.
- <bilder/lightsensor.jpg, id=259, 562.1pt x 381.425pt>
+ <bilder/lightsensor.jpg, id=271, 562.1pt x 381.425pt>
 File: bilder/lightsensor.jpg Graphic file (type jpg)
 
 <use bilder/lightsensor.jpg>
 Package pdftex.def Info: bilder/lightsensor.jpg used on input line 91.
 (pdftex.def)             Requested size: 113.81102pt x 77.22649pt.
- <bilder/tast.jpg, id=260, 301.125pt x 250.9375pt>
+ <bilder/tast.jpg, id=272, 301.125pt x 250.9375pt>
 File: bilder/tast.jpg Graphic file (type jpg)
 
 <use bilder/tast.jpg>
@@ -1248,7 +1248,7 @@ chapter 3.
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[12] <bilder/bauelemente/sn754410.png, id=291, 360.34625pt x 184.69pt>
+[12] <bilder/bauelemente/sn754410.png, id=303, 360.34625pt x 184.69pt>
 File: bilder/bauelemente/sn754410.png Graphic file (type png)
 
 <use bilder/bauelemente/sn754410.png>
@@ -1270,7 +1270,7 @@ Underfull \hbox (badness 6910) in paragraph at lines 257--258
 \T1/ptm/m/n/12 mA) bei 9V. Die von
  []
 
-<bilder/bauelemente/mcp3008.png, id=292, 159.59625pt x 128.48pt>
+<bilder/bauelemente/mcp3008.png, id=304, 159.59625pt x 128.48pt>
 File: bilder/bauelemente/mcp3008.png Graphic file (type png)
 
 <use bilder/bauelemente/mcp3008.png>
@@ -1292,7 +1292,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 [13 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/bauelem
 ente/sn754410.png> <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex
 /bilder/bauelemente/mcp3008.png>]
-<bilder/schaltung/motor-pin.png, id=302, 719.68875pt x 232.87pt>
+<bilder/schaltung/motor-pin.png, id=314, 719.68875pt x 232.87pt>
 File: bilder/schaltung/motor-pin.png Graphic file (type png)
 
 <use bilder/schaltung/motor-pin.png>
@@ -1304,7 +1304,7 @@ Underfull \hbox (badness 1975) in paragraph at lines 281--282
 [][]\T1/ptm/m/n/12 An der Pin-be-le-gung des
  []
 
-<bilder/schaltung/motor.jpg, id=306, 2055.68pt x 1541.76pt>
+<bilder/schaltung/motor.jpg, id=318, 2055.68pt x 1541.76pt>
 File: bilder/schaltung/motor.jpg Graphic file (type jpg)
 
 <use bilder/schaltung/motor.jpg>
@@ -1314,7 +1314,7 @@ Package pdftex.def Info: bilder/schaltung/motor.jpg used on input line 288.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<bilder/schaltung/sensor-pin.png, id=307, 719.68875pt x 416.55624pt>
+<bilder/schaltung/sensor-pin.png, id=319, 719.68875pt x 416.55624pt>
 File: bilder/schaltung/sensor-pin.png Graphic file (type png)
 
 <use bilder/schaltung/sensor-pin.png>
@@ -1361,7 +1361,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 [14 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/schaltu
 ng/motor-pin.png> <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/
 bilder/schaltung/sensor-pin.png>]
-<bilder/schaltung/sensor.jpg, id=316, 3276.24pt x 2457.18pt>
+<bilder/schaltung/sensor.jpg, id=328, 3276.24pt x 2457.18pt>
 File: bilder/schaltung/sensor.jpg Graphic file (type jpg)
 
 <use bilder/schaltung/sensor.jpg>
@@ -1386,7 +1386,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [15 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/schaltu
-ng/motor.jpg>] <bilder/schaltung/komplett.jpg, id=324, 3276.24pt x 2457.18pt>
+ng/motor.jpg>] <bilder/schaltung/komplett.jpg, id=336, 3276.24pt x 2457.18pt>
 File: bilder/schaltung/komplett.jpg Graphic file (type jpg)
 
 <use bilder/schaltung/komplett.jpg>
@@ -1407,7 +1407,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [17 <c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/bilder/schaltu
 ng/komplett.jpg>]
-<bilder/adwandlereigen.png, id=336, 213.79875pt x 274.77657pt>
+<bilder/adwandlereigen.png, id=348, 213.79875pt x 274.77657pt>
 File: bilder/adwandlereigen.png Graphic file (type png)
 
 <use bilder/adwandlereigen.png>
@@ -1437,7 +1437,7 @@ chapter 4.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<bilder/Klassendiagramm.png, id=359, 672.26157pt x 365.11406pt>
+<bilder/Klassendiagramm.png, id=371, 672.26157pt x 365.11406pt>
 File: bilder/Klassendiagramm.png Graphic file (type png)
 
 <use bilder/Klassendiagramm.png>
@@ -1473,6 +1473,9 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\src//Run.py
+Underfull \vbox (badness 1142) has occurred while \output is active []
+
+
 Overfull \vbox (0.59724pt too high) has occurred while \output is active []
 
 
@@ -1489,12 +1492,12 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 chapter 5.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.49 \end{document}
-                    [1]
+                    [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 
 (c:\Users\Andy\Documents\robotik\rob-lego-pi\paper\latex\tex\00_Output\thesis.a
@@ -1502,7 +1505,7 @@ ux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6D25A4D8785FBEF8DED77E7D5728CB89;2049.
+(rerunfilecheck)             Checksum: D28764434EA34C8F49171870AEFF3A73;2174.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1510,10 +1513,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 14715 strings out of 493921
- 218500 string characters out of 3147286
- 445982 words of memory out of 3000000
- 17561 multiletter control sequences out of 15000+200000
+ 14717 strings out of 493921
+ 218534 string characters out of 3147286
+ 446139 words of memory out of 3000000
+ 17563 multiletter control sequences out of 15000+200000
  61990 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,9n,66p,1250b,2455s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1527,9 +1530,9 @@ etic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 Output written on c:/Users/Andy/Documents/robotik/rob-lego-pi/paper/latex/tex/0
-0_Output/thesis.pdf (30 pages, 4108900 bytes).
+0_Output/thesis.pdf (30 pages, 4109398 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
+ 552 PDF objects out of 1000 (max. 8388607)
  129 named destinations out of 1000 (max. 500000)
- 337 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
