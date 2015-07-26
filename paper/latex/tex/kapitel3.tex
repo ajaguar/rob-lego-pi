@@ -32,10 +32,10 @@ Die API ist sehr einfach gestaltet und besteht aus wenigen Klassen um die versch
 
 \clearpage % Alle Bilder, die bisher kamen ausgeben
 
-\subsubsection{Motoren}
+\subsection{Motoren}
 Die Motoren werden mithilfe eines übergebenen MotorPorts instanziiert. Dieser MotorPort beschreibt, an welchen GPIO Pins der Motor angeschlossen ist. Durch \emph{forward()} und \emph{backward()} lassen sich die Motoren vorwärts und rückwärts bewegen. Ebenfalls ist es möglich die Geschwindigkeit individuell anzupassen. Durch \emph{setSpeed(speed: int)} lässt sich eine Geschwindigkeit zwischen 0 und 100 angeben. 
 
-\subsubsection{Sensoren}
+\subsection{Sensoren}
 Sensoren hingegen gibt es in zwei unterschiedlichen Spezialisierungen, dem Tastsensor (TouchSensor), sowie dem Lichtsensor (LightSensor). Beide sind eine Erweiterung der Klasse Sensor, welche Grundlegende Aufgaben übernimmt die für alle Sensor-Arten benötigt werden. Der Lichtsensor liefert mit seiner einzigen öffentlichen Methode \emph{getValue()} einen numerischen Wert zurück, der die Lichtreflektion beschreibt. Je geringer die Reflektion, desto kleiner ist auch der Rückgabewert. Zu beachten ist hier, dass durch unterschiedliche Lichtverhältnisse bedingt, verschiedene Werte zurückgeliefert werden können. Deshalb ist zu empfehlen, nicht nach einem konkreten Wert zu suchen, sondern ein gewisses Delta zuzulassen. Der Tastsensor bestitzt ebenfalls lediglich eine öffentliche Methode \emph{isPressed()}, welche einen booleschen Wert zurückliefert, ob der Tastsensor aktiviert wurde oder nicht. Sensoren werden mit einem übergebenen \emph{Channel} instanziiert. Dieser ist äquivalent zu den Channels am AD-Wandler, und beschreibt wo der Sensor angeschlossen ist. Da bist zu acht Sensoren genutzt werden können, wird eine Zahl zwischen null und sieben erwartet.
 
 \subsection{Beispielanwendung}
