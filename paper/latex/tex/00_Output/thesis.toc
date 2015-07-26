@@ -13,25 +13,29 @@
 \contentsline {subsubsection}{NXT Lightsensor}{8}{subsubsection*.6}
 \contentsline {subsection}{\numberline {2.4.4}Tastsensor}{8}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}GPIO}{9}{section.2.5}
-\contentsline {chapter}{\numberline {3}Technische Implementierung}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Elektronische Bauteile}{11}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Motor}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Sensoren}{11}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}SN754410}{13}{subsection.3.1.3}
+\contentsline {chapter}{\numberline {3}Technische Implementierung}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Elektronische Bauteile}{10}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Motor}{10}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Sensoren}{10}{subsection.3.1.2}
+\contentsline {subsubsection}{Tastsensor}{11}{subsubsection*.10}
+\contentsline {subsubsection}{Tonsensor}{11}{subsubsection*.12}
+\contentsline {subsubsection}{Lichtsensor}{11}{subsubsection*.14}
+\contentsline {subsubsection}{Ultraschallsensor}{12}{subsubsection*.16}
+\contentsline {subsection}{\numberline {3.1.3}SN754410}{12}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}MCP3008}{13}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Elektronischer Aufbau}{14}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Motor}{14}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.2}Elektronischer Aufbau}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Motor}{13}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Sensor}{14}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Komplett}{15}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Herausforderungen beim Auslesen der Sensoren}{18}{section.3.3}
-\contentsline {chapter}{\numberline {4}LegoPi-Software}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Software-Komponenten}{21}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}LegoPi.py - API}{21}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Run.py - Individueller Code des Entwicklers}{22}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}ExecDaemon.py - Automatischer Start des Entwickler-Codes}{22}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}startup.sh - Vorbereitung des Systems}{22}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}API}{22}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Motoren}{24}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Sensoren}{24}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Beispielanwendung}{24}{subsection.4.2.3}
+\contentsline {section}{\numberline {3.3}Herausforderungen beim Auslesen der Sensoren}{17}{section.3.3}
+\contentsline {chapter}{\numberline {4}LegoPi-Software}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Software-Komponenten}{19}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}LegoPi.py - API}{19}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Run.py - Individueller Code des Entwicklers}{20}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}ExecDaemon.py - Automatischer Start des Entwickler-Codes}{20}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}startup.sh - Vorbereitung des Systems}{20}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}API}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Motoren}{22}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Sensoren}{22}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Beispielanwendung}{22}{subsection.4.2.3}
 \contentsline {chapter}{\numberline {5}Fazit}{ii}{chapter.5}
