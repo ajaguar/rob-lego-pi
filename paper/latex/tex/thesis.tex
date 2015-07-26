@@ -31,9 +31,9 @@
 % ------------------------------------------------------------------
 % Hauptteil der Arbeit
 \input{kapitel1} % Externe Datei einbinden
-\input{kapitel2-4} % <-- Jonas einbinden wenn erstellt
-\input{kapitel3jonas} % <-- Jonas einbinden wenn erstellt
-\input{kapitel3} % Externe Datei einbinden
+%\input{kapitel2-4} % <-- Jonas einbinden wenn erstellt
+%\input{kapitel3jonas} % <-- Jonas einbinden wenn erstellt
+%\input{kapitel3} % Externe Datei einbinden
 % ------------------------------------------------------------------
 
 \label{lastpage}
@@ -45,17 +45,5 @@
 \pagenumbering{roman}
 \setcounter{page}{\value{frontmatterpage}}
 
-% Literaturverzeichnis erzeugen (nach DIN)
-\begin{flushleft}
-\bibliographystyle{dinat} % Literatur nach DIN
-%\bibliographystyle{abbrv} % Zitate mit [1], [2] etc.
-%\bibliographystyle{alpha} % Zitate mit [Kor01], [Vix99] etc.
-\bibliography{literatur}   % BibTeX-Datei mit Literaturquellen einbinden
-\end{flushleft}
-
-% Index ausgeben
-\phantomsection
-\addcontentsline{toc}{chapter}{Index}
-\printindex
 
 \end{document}

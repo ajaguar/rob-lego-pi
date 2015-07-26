@@ -1,9 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: 00_Output\thesis.aux
-White space in argument---line 57 of file 00_Output\thesis.aux
- : \citation{FIXME:
- :                  }
-I'm skipping whatever remains of this command
-The style file: dinat.bst
-I found no cite keys---while reading file 00_Output\thesis.aux
-Database file #1: literatur.bib
-(There were 2 error messages)
+I found no \citation commands---while reading file 00_Output\thesis.aux
+I found no \bibdata command---while reading file 00_Output\thesis.aux
+I found no \bibstyle command---while reading file 00_Output\thesis.aux
+(There were 3 error messages)
